@@ -1,11 +1,14 @@
 ---
 layout: default
-title: Home
+title: Notes Index
 ---
 
-<h1>Markdown Files</h1>
+# All Notes
+
 <ul>
   {% for page in site.pages %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% if page.path contains '.md' and page.url != "/" %}
+      <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+    {% endif %}
   {% endfor %}
 </ul>
