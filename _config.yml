@@ -1,5 +1,2 @@
 title: "DnD Mini Wiki"
-theme: jekyll-theme-minimal
-collections:
-  notes:
-    output: true
+theme: minimal
