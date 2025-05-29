@@ -1,6 +1,6 @@
 ---
 layout: default
-title:example
+title: example
 ---
 
 This is a test.
