@@ -1,9 +1,9 @@
 ---
 created: 2025-05-30T00:54:32+02:00
-modified: 2025-05-30T00:54:48+02:00
+modified: 2025-05-30T00:56:06+02:00
 ---
 
-# Session 4 (16.03.2025)
+# [Session 4] (16.03.2025)
 
 In Session 4 hat die Gruppe vom Stadtrat aufgetragen bekommen, das Schmugglerschiff vor der Küste von Saltmarsh aufzusuchen und den Schmugglerring unschädlich zu machen. Wir haben das Schiff geentert und den Schmugglerring zerschlagen, nur drei sind entkommen. Hierbei wurde ein Meereself aus der Gefangenschaft befreit. Wir sind mit dem Schiff und Boot in den Hafen zurückgekehrt und wurden entlohnt.
 
