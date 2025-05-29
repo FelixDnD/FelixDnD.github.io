@@ -5,10 +5,10 @@ title: Notes Index
 
 # All Notes
 
-{% assign pages_by_dir = site.pages | group_by_exp:"page", "page.path | split: '/' | slice: 0, page.path | split: '/' | size - 1 | join: '/'" %}
+{% assign grouped_pages = site.pages | group_by_exp:"page", "page.path | split: '/' | slice: 0, page.path | split: '/' | size | minus: 1 | join: '/'" %}
 
 <ul>
-  {% for group in pages_by_dir %}
+  {% for group in grouped_pages %}
     {% assign dir = group.name %}
     {% if dir != "" %}
       <li><strong>{{ dir }}</strong>
