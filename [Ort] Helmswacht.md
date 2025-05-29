@@ -1,6 +1,6 @@
 ---
 created: 2025-05-30T00:01:15+02:00
-modified: 2025-05-30T00:01:41+02:00
+modified: 2025-05-30T00:48:28+02:00
 ---
 
 # [Ort] Helmswacht
@@ -25,5 +25,3 @@ Personen:
 - Corki, Händler, der die Lieferung erhalten sollte, deren Fahrer wir in Session 5 aus einer Lavine gerettet haben.
 - Unbenannter Ork, verletzter Fahrer der Lieferung
 - Bauern
-
-* * *
