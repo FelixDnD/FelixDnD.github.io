@@ -1,7 +1,10 @@
 ---
 created: 2025-05-30T01:00:01+02:00
-modified: 2025-05-30T01:00:18+02:00
+modified: 2025-05-30T01:02:16+02:00
 ---
 
 # [Session] 1 (15.12.2024)
 
+In Session 1 hat sich unsere Gruppe als Schaulustige bei einem Wasserleichenfund im Hafen getroffen. Wir haben mit dem stadtratsitzenden Händler Anders über mögliche Ursachen gesprochen und beschlossen, gegen Belohnung eine angeblich verfluchte Villa aufzusuchen. Anders vermutet dort keinen Fluch, sondern eine Schmugglerbande. 
+
+Nach einer kurzen Reise haben wir begonnen, die Villa zu durchsuchen. Neben einigem Ungeziefer haben wir tatsächlich klare Zeichen eines Schmugglerringes gefunden.
