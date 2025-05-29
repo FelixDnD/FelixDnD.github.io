@@ -1,2 +1,7 @@
 title: "DnD Mini Wiki"
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Add navigation links
+header_pages:
+  - index.md
+  - example.md
