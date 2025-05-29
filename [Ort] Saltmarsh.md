@@ -1,6 +1,6 @@
 ---
 created: 2025-05-30T00:02:11+02:00
-modified: 2025-05-30T00:02:21+02:00
+modified: 2025-05-30T00:48:38+02:00
 ---
 
 # [Ort] Saltmarsh
@@ -47,5 +47,3 @@ Weitere Personen:
 Fraktionen:
 - Traditionalisten
 - Loyalisten
-
-* * *
