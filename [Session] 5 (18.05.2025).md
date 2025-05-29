@@ -1,7 +1,83 @@
 ---
 created: 2025-05-30T01:01:51+02:00
-modified: 2025-05-30T01:02:03+02:00
+modified: 2025-05-30T01:03:13+02:00
 ---
 
 # [Session] 5 (18.05.2025)
 
+Unsere Gruppe hat sich in Session 1 als Schaulustige eines Wasserleichenfundes im Hafen von Saltmarsh gefunden. Im Auftrag des Stadtrates, insbesondere des Händlers Anders, haben wir Session 1, Session 2 und Session 3 damit verbracht, eine als verflucht vermutete Villa in der Nähe von Saltmarsh als Stützpunkt eines Schmuggerringes zu enttarnen, zu durchsuchen, die anwesenden Teil des Schmugglerrings zu zerschlagen und mit einem Boot und zurückgewonnenen Kontrabande nach Saltmarsh zurückzukehren. In Session 4 haben wir die zweite Hälfte des Schmugglerrings auf See abgefangen und unschädlich gemacht. Seitdem sind wir offiziell stolze Besitzer des Schmugglerschiffes samt bereitgestellter 12-köpfiger Besatzung.
+
+* * *
+
+In Session 5 sind wir unserem geplanten Vorhaben, dem mysteriösem Symbol auf einer Karte östlich von Neverwinter auf die Spur zu gehen, gefolgt. Hierfür haben wir Winterübermäntel mit Wappen von Saltmarsh erhalten. (!) Uns haben die Bergführer Kniesel (Tabea) und Batram der Bärtige (Lara) und deren Falken mehr oder weniger zielstrebig geführt.
+
+Während den drei Tagesreisen zur Zwischenstation Helmswacht haben wir einen Händler aus einer Lawine gerettet, eine freundliche Reisegruppe Zwerge getroffen und drei Wölfe und zwei Yetis getötet. 
+
+In Helmswacht haben wir übernachtet und in der Taverne den Barkeeper Garon, die Stadtwache und deren Anführer Felosial und einige Bauern kennengelernt. Die Stadtwache hat uns gewarnt, um die Siedlung würden einzelne Personen morgens tot mit tausend Nadelstichwunden gefunden. Die Bauern behaupten, Goblins würden zur Sommersonnenwende einen heilenden und zur Wintersonnenwende einen vergiftenden Apfel verkaufen.
+
+Nach weiteren 1 1/2 Tagesreisen haben wir eine gepflasterte Lichtung mit einer kilometerlangen Schlucht gefunden. An deren Boden liegt der Eingang zu einer versunkenen Zitadelle, die wir als unser Ziel vermuten. Wir haben angefangen, sie zu erforschen.
+
+Hier leben Goblins und Kobolde in andauernder Fehde. Wir haben dem Koboldaführer Yusdrayl (halbherzig) zugesagt, ihren entführten Babydrachen Calcryx zurückzuholen. Die Kobolde haben uns in die richtige Richtung geschickt und sind dann bis auf den schluchzenden Meepo zurückgeblieben. Wir haben eine verschlossene Tür mit abgebildeten Drachen und Sonne (-> Solis) gefunden und fünf Skelette besiegt.
+
+* * *
+
+To Do außerhalb der Zitadelle:
+- Klären, warum Menschen um Helmswacht sterben.
+- Quintus möchte seiner Affäre (?) in Neverwinter nachgehen
+- Wo wir auch einen versiegelten Brief an Lord Neverwinter übergeben sollen.
+- Wertgegenstände in Neverwinter verkaufen.
+- Wir werden in Neverwinter von unserem Schiff abgeholt.
+- Das Kreuz in der Nähe von Saltmarsh auf der Schmugglerkarte aufsuchen.
+- Auf weitere Aufträge des Stadtrates von Saltmarsh bzgl. möglicher Kontakte des Schmugglerrings warten.
+- Namen für die Gruppe und das Schiff aussuchen.
+
+* * *
+
+Wir beginnen Session 6 in den Tiefen der Zitadelle, umgeben von fünf Haufen Knochen.
+
+To Do in der Zitadelle:
+- Den Babydrachen finden und ggf. den Kobolden zurückbringen.
+- Die verschlossene Tür öffnen/den Schlüssel finden.
+- Die Bedeutung des ursprünglichen Symbols verstehen/die Zitadelle weiter erkunden.
+- Verkaufen die hier ansässigen Goblins die Äpfel?
+
+* * *
+
+Bag of Holding:
+- Karte der Region
+- Karte Saltmarsh, Helmswacht, Neverwinter und mysteriösem Symbol östlich von Saltmarsh
+- Karte vom Sumpf Medailin südlich von Saltmarsh (die mit dem Kreuz)
+- 7x Küstenkarten
+- Gezeitenbuch
+- Buch von Tavernen, in denen Piraten willkommen sind
+- Brief an Kapitän Sigur Schlangenauge
+- Zauberbuch des Kellermagiers, Käufer gesucht
+- Schriftrolle: Gust of Wind, Käufer gesucht
+- 2x Laterne
+- 20x Ration Trockenobst
+- 2x Yetifell, Käufer gesucht
+
+* * *
+
+Gruppenbudget: ~1340G
+- 261G
+- 2000E
+- 855S
+- 12K
+
+* * *
+
+Belohnungen pro Person:
+- 50g Session 3
+- 80g Session 4
+
+* * *
+
+Schiff:
+- 12x Besatzung (1 Jahr)
+- Besitzurkunde
+
+* * *
+
+Ruderboot:
+- 5x Enterhaken
