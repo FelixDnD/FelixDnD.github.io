@@ -3,7 +3,7 @@ created: 2025-05-30T00:05:50+02:00
 modified: 2025-05-30T00:06:03+02:00
 ---
 
-# [Ort] Versunkene Zitadelle
+# Versunkene Zitadelle
 
 Die versunkene Zitadelle liegt 1 1/2 Tagesreisen östlich von Helmswacht. Sie ist auf der Karte dieser Region markiert, die die Gruppe in Session 2 im Keller des Schmugglerhauses auf dem Schreibtisch des Magiers gefunden haben.
 
