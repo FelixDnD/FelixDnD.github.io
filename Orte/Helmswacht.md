@@ -27,6 +27,6 @@ Personen:
 <summary><strong>Corki, Händler</strong></summary>
 <p>Sollte die Lieferung erhalten, deren Fahrer wir in Session 5 aus einer Lavine gerettet haben.</p>
 </details>
-
+<br><br>
 - Unbenannter Ork, verletzter Fahrer der Lieferung
 - Bauern
