@@ -23,6 +23,6 @@ Personen:
 - Garon, Besitzer der Taverne Alter Eber
 - Felosial, Chef*in der Stadtwache
 <details><summary><strong>Corki, Händler</strong></summary>
-<p>Sollte die Lieferung erhalten, deren Fahrer wir in Session 5 aus einer Lavine gerettet haben.</p><details>
+<p>Sollte die Lieferung erhalten, deren Fahrer wir in Session 5 aus einer Lavine gerettet haben.</p></details>
 - Unbenannter Ork, verletzter Fahrer der Lieferung
 - Bauern
