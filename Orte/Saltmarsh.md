@@ -37,7 +37,7 @@ Stadtrat:
 - <details><summary><strong>Lord Avondis Dectan</strong></summary>Ehrensitz der Alianz der Lords im Stadtrat, blockiert Entscheidungen</details>
 
 Weitere Personen:
-- Ingo der Treiber, Tagelöhner
+- <details><summary><strong>Ingo der Treiber, Tagelöhner</strong></summary></details>
 - <details><summary><strong>Keledek der Ungesprochene</strong></summary>ausländischer, mysteriöser Zauberer</details>
 - <details><summary><strong>Tiko's weltliche Familie</strong></summary>mäßig erfolgreiche Händler mit wenigen überregionalen Beziehungen.</details>
 - <details><summary><strong>Diverse Stadtwachen</strong></summary>die Lauzian und Gamli kennen.</details>
