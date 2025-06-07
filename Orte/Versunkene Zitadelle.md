@@ -10,18 +10,18 @@ Die versunkene Zitadelle liegt 1 1/2 Tagesreisen östlich von Helmswacht. Sie is
 * * *
 
 Orte:
-- <details><summary><strong>Eingang</strong></summary><p>Gepflasterte Lichtung im Wald, von stehende und gestützte Säulen umgeben, Schlucht (30ft breit, viele Kilometer lang), Eingang am Boden der Schlucht.</p></details>
-- <details><summary><strong>Tür mit Symbol (Drache & Sonne, -> Solis)</strong></summary><p>verschlossen. Kobolde haben den Schlüssel.</p></details>
+- <details><summary><strong>Eingang</strong></summary>Gepflasterte Lichtung im Wald, von stehende und gestützte Säulen umgeben, Schlucht (30ft breit, viele Kilometer lang), Eingang am Boden der Schlucht.</details>
+- <details><summary><strong>Tür mit Symbol (Drache & Sonne, -> Solis)</strong></summary>verschlossen. Kobolde haben den Schlüssel.</details>
 - Raum mit 5 Särgen und 5 (jetzt) toten Skeletten.
 - Raum mit Ashaladon in drakonisch in die Wand graviert
 
 * * *
 
 Personen:
-- <details><summary><strong>Ashaladon</strong></summary><p>in drakonisch in die Wand gravierter Name</p></details>
-- <details><summary><strong>Calcryx, Babydrache</strong></summary><p>zuvor von Kobolden besessen, jetzt von Goblins entführt.</p></details>
-- <details><summary><strong>Koboldstamm</strong></summary><p>	- Yusdrayl, Anführer
-	- Meepo, schluchzender Kobold</p></details>
+- <details><summary><strong>Ashaladon</strong></summary>in drakonisch in die Wand gravierter Name</details>
+- <details><summary><strong>Calcryx, Babydrache</strong></summary>zuvor von Kobolden besessen, jetzt von Goblins entführt.</details>
+- <details><summary><strong>Koboldstamm</strong></summary>	- Yusdrayl, Anführer
+	- Meepo, schluchzender Kobold</details>
 - Goblinstamm
 
 * * *
