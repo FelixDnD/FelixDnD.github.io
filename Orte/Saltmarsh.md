@@ -42,7 +42,6 @@ Weitere Personen:
 - <details><summary><strong>Tiko's weltliche Familie</strong></summary>mäßig erfolgreiche Händler mit wenigen überregionalen Beziehungen.</details>
 - <details><summary><strong>Diverse Stadtwachen</strong></summary>die Lauzian und Gamli kennen.</details>
 
-
 * * *
 
 Fraktionen:
