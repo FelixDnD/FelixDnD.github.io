@@ -10,12 +10,12 @@ modified: 2025-05-30T00:48:38+02:00
 Religiöse Zentren:
 - <details><summary><strong>Tempel von Procan</strong></summary>geleitet von Wellgar Salzhand, Totengräber Krag.</details>
 - <details><summary><strong>See-Grotte von Obad-Hai</strong></summary>gepflegt von Ferrin Kastillar</details>
-<br><br>
+
 Tavernen:
 - <details><summary><strong>Zum Leeren Netz</strong></summary>zwielichtig, auf Stelzen über der Bucht, von Kreb Schenker</details>
 - <details><summary><strong>Die Weidenziege</strong></summary>für Wachen und Zwergen, von Lankus Kurrid</details>
 - <details><summary><strong>Reißleine</strong></summary>für Seeleute und Fischer, von Hanna Rist</details>
-<br><br>
+
 Öffentliche Institutionen:
 - <details><summary><strong>Zimmermannsgilde</strong></summary>geleitet von Jilar Kanklesten (Gnom)</details>
 - Fischhändlerfabrik
@@ -25,7 +25,7 @@ Lokale Unternehmen:
 - <details><summary><strong>Der Zwergenamboss</strong></summary>von Mafera und Geselle/Sohn Jasker</details>
 - <details><summary><strong>Treue Quartiermeister der Küste, magische Gegenstände</strong></summary>geleitet von Kapitän Xendros (Tiefling)</details>
 - <details><summary><strong>Winstons Laden</strong></summary>von Winston (Halbling)</details>
-<br><br>
+
 * * *
 
 Stadtrat:
@@ -35,13 +35,13 @@ Stadtrat:
 - <details><summary><strong>Mannistrad Kupferlocke</strong></summary>Zwerg, Leiterin des Bergbaus, Loyalistin</details>
 - <details><summary><strong>Anders Solmer</strong></summary>beliebt, jung, Fischerei & Handel, gegen Sklaverei und Schmuggel, unser Kontakt zum Stadtrat</details>
 - <details><summary><strong>Lord Avondis Dectan</strong></summary>Ehrensitz der Alianz der Lords im Stadtrat, blockiert Entscheidungen</details>
-<br><br>
+
 Weitere Personen:
 - Ingo der Treiber, Tagelöhner
 - <details><summary><strong>Keledek der Ungesprochene</strong></summary>ausländischer, mysteriöser Zauberer</details>
 - <details><summary><strong>Tiko's weltliche Familie</strong></summary>mäßig erfolgreiche Händler mit wenigen überregionalen Beziehungen.</details>
 - <details><summary><strong>Diverse Stadtwachen</strong></summary>die Lauzian und Gamli kennen.</details>
-<br><br>
+
 
 * * *
 
