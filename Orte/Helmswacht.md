@@ -9,25 +9,19 @@ Helmswacht ist eine kleine, unbefestigte Siedlung eine Tagesreise südlich von N
 
 * * *
 
-**Orte:**
-
-<ul>
-  <li>Alter Eber: Taverne, Besitzer Garon</li>
-  <li>Dorfhalle</li>
-  <li>Hykrell Handelsposten</li>
-  <li>Kapelle</li>
-  <li>Schmiede</li>
-  <li>Kaserne & Gefängnis, Aufsicht Felosial</li>
-</ul>
+Orte:
+- <details><summary>Alter Eber: Taverne, Besitzer Garon</summary></details>
+- <details><summary>Dorfhalle</summary></details>
+- <details><summary>Hykrell Handelsposten</summary></details>
+- <details><summary>Kapelle</summary></details>
+- <details><summary>Schmiede</summary></details>
+- <details><summary>Kaserne & Gefängnis, Aufsicht Felosial</summary></details>
 
 * * *
 
-**Personen:**
-
-<ul>
-  <li>Garon, Besitzer der Taverne Alter Eber</li>
-  <li><details><summary>This is a test</summary>THis is an extended Test.</details></li>
-  <li><details><summary>Corki, Händler</summary>Sollte die Lieferung erhalten, deren Fahrer wir in Session 5 aus einer Lavine gerettet haben.</details></li>
-  <li>Unbenannter Ork, verletzter Fahrer der Lieferung</li>
-  <li>Bauern</li>
-</ul>
+Personen:
+- <details><summary>Garon, Besitzer der Taverne Alter Eber</summary></details>
+- <details><summary>This is a test</summary>THis is an extended Test.</details>
+- <details><summary><strong>Corki, Händler</strong></summary>Sollte die Lieferung erhalten, deren Fahrer wir in Session 5 aus einer Lavine gerettet haben.</details>
+- <details><summary>Unbenannter Ork, verletzter Fahrer der Lieferung</summary></details>
+- <details><summary>Bauern</summary></details>
