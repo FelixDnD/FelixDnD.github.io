@@ -7,28 +7,28 @@ modified: 2025-05-30T00:48:38+02:00
 
 * * *
 
-## Religiöse Zentren:
+### Religiöse Zentren:
 - **Tempel von Procan.** geleitet von Wellgar Salzhand, Totengräber Krag.
 - **See-Grotte von Obad-Hai.** gepflegt von Ferrin Kastillar
 
-## Tavernen:
+### Tavernen:
 - **Zum Leeren Netz.** zwielichtig, auf Stelzen über der Bucht, von Kreb Schenker
 - **Die Weidenziege.** für Wachen und Zwergen, von Lankus Kurrid
 - **Reißleine.** für Seeleute und Fischer, von Hanna Rist
 
-## Öffentliche Institutionen:
+### Öffentliche Institutionen:
 - **Zimmermannsgilde.** geleitet von Jilar Kanklesten (Gnom)
 - **Fischhändlerfabrik.** 
 - **Seefahrergilde.** 
 
-## Lokale Unternehmen:
+### Lokale Unternehmen:
 - **Der Zwergenamboss.** von Mafera und Geselle/Sohn Jasker
 - **Treue Quartiermeister der Küste, magische Gegenstände.** geleitet von Kapitän Xendros (Tiefling)
 - **Winstons Laden.** von Winston (Halbling)
 
 * * *
 
-## Stadtrat:
+### Stadtrat:
 - **Eda Oweland.** dienstältestes Ratsmitglied, besitzt drei Fischerboote, Traditionalistin
 - **Gellan Primewater.** größter Kaufmann Saltmarshs, wohlhaben und prahlend, Traditionalist
 - **Elliander Fireborn.** Leiter der Stadtwache, Vetaran der Allianz der Lords und Loyalist
@@ -36,7 +36,7 @@ modified: 2025-05-30T00:48:38+02:00
 - **Anders Solmer.** beliebt, jung, Fischerei & Handel, gegen Sklaverei und Schmuggel, unser Kontakt zum Stadtrat
 - **Lord Avondis Dectan.** Ehrensitz der Alianz der Lords im Stadtrat, blockiert Entscheidungen
 
-## Weitere Personen:
+### Weitere Personen:
 - **Ingo der Treiber, Tagelöhner.** 
 - **Keledek der Ungesprochene.** ausländischer, mysteriöser Zauberer
 - **Tiko's weltliche Familie.** mäßig erfolgreiche Händler mit wenigen überregionalen Beziehungen.
@@ -44,6 +44,6 @@ modified: 2025-05-30T00:48:38+02:00
 
 * * *
 
-## Fraktionen:
+### Fraktionen:
 - **Traditionalisten.** 
 - **Loyalisten.** 
