@@ -8,42 +8,63 @@ modified: 2025-05-30T00:48:38+02:00
 * * *
 
 Religiöse Zentren:
-- <details><summary><strong>Tempel von Procan</strong></summary>geleitet von Wellgar Salzhand, Totengräber Krag.</details>
-- <details><summary><strong>See-Grotte von Obad-Hai</strong></summary>gepflegt von Ferrin Kastillar</details>
+
+<ul>
+  <li><details><summary>Tempel von Procan</summary>geleitet von Wellgar Salzhand, Totengräber Krag.</details></li>
+  <li><details><summary>See-Grotte von Obad-Hai</summary>gepflegt von Ferrin Kastillar</details></li>
+</ul>
 
 Tavernen:
-- <details><summary><strong>Zum Leeren Netz</strong></summary>zwielichtig, auf Stelzen über der Bucht, von Kreb Schenker</details>
-- <details><summary><strong>Die Weidenziege</strong></summary>für Wachen und Zwergen, von Lankus Kurrid</details>
-- <details><summary><strong>Reißleine</strong></summary>für Seeleute und Fischer, von Hanna Rist</details>
+
+<ul>
+  <li><details><summary>Zum Leeren Netz</summary>zwielichtig, auf Stelzen über der Bucht, von Kreb Schenker</details></li>
+  <li><details><summary>Die Weidenziege</summary>für Wachen und Zwergen, von Lankus Kurrid</details></li>
+  <li><details><summary>Reißleine</summary>für Seeleute und Fischer, von Hanna Rist</details></li>
+</ul>
 
 Öffentliche Institutionen:
-- <details><summary><strong>Zimmermannsgilde</strong></summary>geleitet von Jilar Kanklesten (Gnom)</details>
-- <details><summary><strong>Fischhändlerfabrik</strong></summary></details>
-- <details><summary><strong>Seefahrergilde</strong></summary></details>
+
+<ul>
+  <li><details><summary>Zimmermannsgilde</summary>geleitet von Jilar Kanklesten (Gnom)</details></li>
+  <li><details><summary>Fischhändlerfabrik</summary></details></li>
+  <li><details><summary>Seefahrergilde</summary></details></li>
+</ul>
 
 Lokale Unternehmen:
-- <details><summary><strong>Der Zwergenamboss</strong></summary>von Mafera und Geselle/Sohn Jasker</details>
-- <details><summary><strong>Treue Quartiermeister der Küste, magische Gegenstände</strong></summary>geleitet von Kapitän Xendros (Tiefling)</details>
-- <details><summary><strong>Winstons Laden</strong></summary>von Winston (Halbling)</details>
+
+<ul>
+  <li><details><summary>Der Zwergenamboss</summary>von Mafera und Geselle/Sohn Jasker</details></li>
+  <li><details><summary>Treue Quartiermeister der Küste, magische Gegenstände</summary>geleitet von Kapitän Xendros (Tiefling)</details></li>
+  <li><details><summary>Winstons Laden</summary>von Winston (Halbling)</details></li>
+</ul>
 
 * * *
 
 Stadtrat:
-- <details><summary><strong>Eda Oweland</strong></summary>dienstältestes Ratsmitglied, besitzt drei Fischerboote, Traditionalistin</details>
-- <details><summary><strong>Gellan Primewater</strong></summary>größter Kaufmann Saltmarshs, wohlhaben und prahlend, Traditionalist</details>
-- <details><summary><strong>Elliander Fireborn</strong></summary>Leiter der Stadtwache, Vetaran der Allianz der Lords und Loyalist</details>
-- <details><summary><strong>Mannistrad Kupferlocke</strong></summary>Zwerg, Leiterin des Bergbaus, Loyalistin</details>
-- <details><summary><strong>Anders Solmer</strong></summary>beliebt, jung, Fischerei & Handel, gegen Sklaverei und Schmuggel, unser Kontakt zum Stadtrat</details>
-- <details><summary><strong>Lord Avondis Dectan</strong></summary>Ehrensitz der Alianz der Lords im Stadtrat, blockiert Entscheidungen</details>
+
+<ul>
+  <li><details><summary>Eda Oweland</summary>dienstältestes Ratsmitglied, besitzt drei Fischerboote, Traditionalistin</details></li>
+  <li><details><summary>Gellan Primewater</summary>größter Kaufmann Saltmarshs, wohlhaben und prahlend, Traditionalist</details></li>
+  <li><details><summary>Elliander Fireborn</summary>Leiter der Stadtwache, Vetaran der Allianz der Lords und Loyalist</details></li>
+  <li><details><summary>Mannistrad Kupferlocke</summary>Zwerg, Leiterin des Bergbaus, Loyalistin</details></li>
+  <li><details><summary>Anders Solmer</summary>beliebt, jung, Fischerei & Handel, gegen Sklaverei und Schmuggel, unser Kontakt zum Stadtrat</details></li>
+  <li><details><summary>Lord Avondis Dectan</summary>Ehrensitz der Alianz der Lords im Stadtrat, blockiert Entscheidungen</details></li>
+</ul>
 
 Weitere Personen:
-- <details><summary><strong>Ingo der Treiber, Tagelöhner</strong></summary></details>
-- <details><summary><strong>Keledek der Ungesprochene</strong></summary>ausländischer, mysteriöser Zauberer</details>
-- <details><summary><strong>Tiko's weltliche Familie</strong></summary>mäßig erfolgreiche Händler mit wenigen überregionalen Beziehungen.</details>
-- <details><summary><strong>Diverse Stadtwachen</strong></summary>die Lauzian und Gamli kennen.</details>
+
+<ul>
+  <li><details><summary>Ingo der Treiber, Tagelöhner</summary></details></li>
+  <li><details><summary>Keledek der Ungesprochene</summary>ausländischer, mysteriöser Zauberer</details></li>
+  <li><details><summary>Tiko's weltliche Familie</summary>mäßig erfolgreiche Händler mit wenigen überregionalen Beziehungen.</details></li>
+  <li><details><summary>Diverse Stadtwachen</summary>die Lauzian und Gamli kennen.</details></li>
+</ul>
 
 * * *
 
 Fraktionen:
-- Traditionalisten
-- Loyalisten
+
+<ul>
+  <li>Traditionalisten</li>
+  <li>Loyalisten</li>
+</ul>

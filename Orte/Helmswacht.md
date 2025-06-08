@@ -9,19 +9,25 @@ Helmswacht ist eine kleine, unbefestigte Siedlung eine Tagesreise südlich von N
 
 * * *
 
-Orte:
-- Alter Eber: Taverne, Besitzer Garon
-- Dorfhalle
-- Hykrell Handelsposten
-- Kapelle
-- Schmiede
-- Kaserne & Gefängnis, Aufsicht Felosial
+**Orte:**
+
+<ul>
+  <li>Alter Eber: Taverne, Besitzer Garon</li>
+  <li>Dorfhalle</li>
+  <li>Hykrell Handelsposten</li>
+  <li>Kapelle</li>
+  <li>Schmiede</li>
+  <li>Kaserne & Gefängnis, Aufsicht Felosial</li>
+</ul>
 
 * * *
 
-Personen:
-- Garon, Besitzer der Taverne Alter Eber
-- <details><summary>This is a test</summary>THis is an extended Test.</details>
-- <details><summary><strong>Corki, Händler</strong></summary>Sollte die Lieferung erhalten, deren Fahrer wir in Session 5 aus einer Lavine gerettet haben.</details>
-- Unbenannter Ork, verletzter Fahrer der Lieferung
-- Bauern
+**Personen:**
+
+<ul>
+  <li>Garon, Besitzer der Taverne Alter Eber</li>
+  <li><details><summary>This is a test</summary>THis is an extended Test.</details></li>
+  <li><details><summary>Corki, Händler</summary>Sollte die Lieferung erhalten, deren Fahrer wir in Session 5 aus einer Lavine gerettet haben.</details></li>
+  <li>Unbenannter Ork, verletzter Fahrer der Lieferung</li>
+  <li>Bauern</li>
+</ul>
