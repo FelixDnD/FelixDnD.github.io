@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+li > details {
+  display: block;
+  margin-left: 0;
+}
