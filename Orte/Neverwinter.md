@@ -14,5 +14,5 @@ Orte:
 
 Personen:
 <ul>
-  <li><details><summary><strong>Lord Neverwinter</strong></summary>wir haben in Session 5 einen versiegelten Brief für ihn von Anders erhalten.</details></li>
+  <li><details><summary>Lord Neverwinter</summary>wir haben in Session 5 einen versiegelten Brief für ihn von Anders erhalten.</details></li>
 </ul>
