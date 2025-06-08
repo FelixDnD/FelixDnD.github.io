@@ -19,10 +19,10 @@ Die versunkene Zitadelle liegt 1 1/2 Tagesreisen östlich von Helmswacht. Sie is
 ### Personen:
 - **Ashaladon.** in drakonisch in die Wand gravierter Name
 - **Calcryx, Babydrache.** zuvor von Kobolden besessen, jetzt von Goblins entführt.
-- **Koboldstamm.** 
+- **Koboldstamm:** 
 	- Yusdrayl, Anführer
 	- Meepo, schluchzender Kobold
-- **Goblinstamm.** 
+- **Goblinstamm:** 
 
 * * *
 
