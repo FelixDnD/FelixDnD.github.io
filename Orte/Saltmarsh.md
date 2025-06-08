@@ -18,8 +18,8 @@ Tavernen:
 
 Öffentliche Institutionen:
 - <details><summary><strong>Zimmermannsgilde</strong></summary>geleitet von Jilar Kanklesten (Gnom)</details>
-- Fischhändlerfabrik
-- Seefahrergilde
+- <details><summary><strong>Fischhändlerfabrik</strong></summary></details>
+- <details><summary><strong>Seefahrergilde</strong></summary></details>
 
 Lokale Unternehmen:
 - <details><summary><strong>Der Zwergenamboss</strong></summary>von Mafera und Geselle/Sohn Jasker</details>
