@@ -21,7 +21,7 @@ Orte:
 
 Personen:
 - Garon, Besitzer der Taverne Alter Eber
--<details><summary><strong>This is a test</strong></summary>THis is an extended Test.</details>
+- <details><summary>This is a test</summary>THis is an extended Test.</details>
 - <details><summary><strong>Corki, Händler</strong></summary>Sollte die Lieferung erhalten, deren Fahrer wir in Session 5 aus einer Lavine gerettet haben.</details>
 - Unbenannter Ork, verletzter Fahrer der Lieferung
 - Bauern
