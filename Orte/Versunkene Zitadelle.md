@@ -9,7 +9,8 @@ Die versunkene Zitadelle liegt 1 1/2 Tagesreisen östlich von Helmswacht. Sie is
 
 * * *
 
-**Orte:**
+### Orte:
+
 <details><summary>Eingang</summary>Gepflasterte Lichtung im Wald, von stehende und gestützte Säulen umgeben, Schlucht (30ft breit, viele Kilometer lang), Eingang am Boden der Schlucht.</details>
 <details><summary>Tür mit Symbol (Drache & Sonne, -> Solis)</summary>verschlossen. Kobolde haben den Schlüssel.</details>
 <details><summary>Raum mit 5 Särgen und 5 (jetzt) toten Skeletten.</summary></details>
@@ -17,7 +18,8 @@ Die versunkene Zitadelle liegt 1 1/2 Tagesreisen östlich von Helmswacht. Sie is
 
 * * *
 
-**Personen:**
+### Personen:
+
 <details><summary>Ashaladon</summary>in drakonisch in die Wand gravierter Name</details>
 <details><summary>Calcryx, Babydrache</summary>zuvor von Kobolden besessen, jetzt von Goblins entführt.</details>
 <details><summary>Koboldstamm</summary>

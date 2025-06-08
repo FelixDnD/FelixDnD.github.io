@@ -9,7 +9,8 @@ Helmswacht ist eine kleine, unbefestigte Siedlung eine Tagesreise südlich von N
 
 * * *
 
-**Orte:**
+### Orte:
+
 <details><summary>Alter Eber: Taverne, Besitzer Garon</summary></details>
 <details><summary>Dorfhalle</summary></details>
 <details><summary>Hykrell Handelsposten</summary></details>
@@ -19,7 +20,8 @@ Helmswacht ist eine kleine, unbefestigte Siedlung eine Tagesreise südlich von N
 
 * * *
 
-**Personen:**
+### Personen:
+
 <details><summary>Garon, Besitzer der Taverne Alter Eber</summary></details>
 <details><summary>This is a test</summary>THis is an extended Test.</details>
 <details><summary>Corki, Händler</summary>Sollte die Lieferung erhalten, deren Fahrer wir in Session 5 aus einer Lavine gerettet haben.</details>
