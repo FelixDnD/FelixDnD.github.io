@@ -9,24 +9,22 @@ Die versunkene Zitadelle liegt 1 1/2 Tagesreisen östlich von Helmswacht. Sie is
 
 * * *
 
-### Orte:
-
-<details><summary>Eingang</summary>Gepflasterte Lichtung im Wald, von stehende und gestützte Säulen umgeben, Schlucht (30ft breit, viele Kilometer lang), Eingang am Boden der Schlucht.</details>
-<details><summary>Tür mit Symbol (Drache & Sonne, -> Solis)</summary>verschlossen. Kobolde haben den Schlüssel.</details>
-<details><summary>Raum mit 5 Särgen und 5 (jetzt) toten Skeletten.</summary></details>
-<details><summary>Raum mit Ashaladon in drakonisch in die Wand graviert</summary></details>
+## Orte:
+- **Eingang.** Gepflasterte Lichtung im Wald, von stehende und gestützte Säulen umgeben, Schlucht (30ft breit, viele Kilometer lang), Eingang am Boden der Schlucht.
+- **Tür mit Symbol (Drache & Sonne, -> Solis).** verschlossen. Kobolde haben den Schlüssel.
+- **Raum mit 5 Särgen und 5 (jetzt) toten Skeletten..** 
+- **Raum mit Ashaladon in drakonisch in die Wand graviert.** 
 
 * * *
 
-### Personen:
-
-<details><summary>Ashaladon</summary>in drakonisch in die Wand gravierter Name</details>
-<details><summary>Calcryx, Babydrache</summary>zuvor von Kobolden besessen, jetzt von Goblins entführt.</details>
-<details><summary>Koboldstamm</summary>
+## Personen:
+- **Ashaladon.** in drakonisch in die Wand gravierter Name
+- **Calcryx, Babydrache.** zuvor von Kobolden besessen, jetzt von Goblins entführt.
+- **Koboldstamm.** 
 - Yusdrayl, Anführer
-- Meepo, schluchzender Kobold</details>
-<details><summary>Goblinstamm</summary></details>
+- Meepo, schluchzender Kobold
+- **Goblinstamm.** 
 
 * * *
 
-<details><summary>Passwort der Kobolde: Ticklecorn auf Drakonisch</summary></details>
+- **Passwort der Kobolde: Ticklecorn auf Drakonisch.** 
