@@ -1,2 +1,4 @@
 title: "DnD Mini Wiki"
 remote_theme: pages-themes/minimal@v0.2.0
+include:
+  - _layouts/style.css
