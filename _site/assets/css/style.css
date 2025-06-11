@@ -19,8 +19,9 @@ body {
 }
 
 .site-header {
-  padding: 1rem;
+  padding-left: 20px;
   border-bottom: 2px solid #ddd;
+  margin-bottom: 10px;
 }
 
 .header-inner {
@@ -47,6 +48,7 @@ body {
 .content {
   flex-grow: 0;
   padding: 10px;
+  padding-top: 0px;
 }
 
 .sidebar ul {
@@ -54,6 +56,11 @@ body {
   padding-left: 0;
   padding-right: 0;
   list-style-position: inside;
+}
+
+.sidebar ul li {
+  margin-left: 5px;
+  margin-right:5px;
 }
 
 .sidebar-toggle {
@@ -64,10 +71,6 @@ body {
   color: black;
   background-color: white;
   border: none;
-}
-
-.sidebar ul li {
-  margin-left: 5px;
 }
 
 a {
@@ -90,6 +93,7 @@ a {
 @media only screen and (max-width: 1000px) {
   html {
     width: 100%;
+    max-width: 800px;
   }
 
   .main-container {
