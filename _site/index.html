@@ -22,15 +22,12 @@
 
     <link rel="stylesheet" href="/assets/css/style.css?v=">
     <link rel="stylesheet" href="/assets/css/menu.css?v=">
-    
   </head>
 
   <body>
     <div class="wrapper">
       <header class="site-header">
-        <div class="header-inner">
           <h1><a href="http://localhost:4000/">DnD Mini Wiki</a></h1>
-        </div>
       </header>
 
       <div class="main-container">
@@ -45,7 +42,7 @@
       </footer>
 
       <!-- Sidebars -->
-        <div class="sidebar" id="sidebarOrte"><div class="sidebar-content"><nav>
+      <div class="sidebar" id="sidebarOrte"><div class="sidebar-content"><nav>
     <h3 class="tree-h3">Orte</h3>
     <ul>
     <hr class="tree-hr">
@@ -102,7 +99,7 @@
     
     </ul>
 </nav></div></div>
-        <div class="sidebar" id="sidebarNPCs"><div class="sidebar-content"><nav>
+      <div class="sidebar" id="sidebarNPCs"><div class="sidebar-content"><nav>
     <h3 class="tree-h3">NPCs</h3>
     <ul>
     <hr class="tree-hr">
@@ -147,7 +144,7 @@
     
     </ul>
 </nav></div></div>
-        <div class="sidebar" id="sidebarSessions"><div class="sidebar-content"><nav>
+      <div class="sidebar" id="sidebarSessions"><div class="sidebar-content"><nav>
     <h3 class="tree-h3">Sessions</h3>
     <ul>
     <hr class="tree-hr">
@@ -210,7 +207,7 @@
     
     </ul>
 </nav></div></div>
-        <div class="sidebar" id="sidebarPCs"><div class="sidebar-content"><nav>
+      <div class="sidebar" id="sidebarPCs"><div class="sidebar-content"><nav>
     <h3 class="tree-h3">PCs</h3>
     <ul>
     <hr class="tree-hr">
@@ -280,14 +277,14 @@
     </ul>
 </nav></div></div>
 
-        <div class="overlay" id="overlay" onclick="closeSidebars()"></div>
+      <div class="overlay" id="overlay" onclick="closeSidebars()"></div>
 
       <!-- Radial Menu -->
       <div class="menu" id="menu">
-        <button class="menu-item" onclick="openSidebar('sidebarOrte')">Orte</button>
-        <button class="menu-item" onclick="openSidebar('sidebarNPCs')">NPCs</button>
         <button class="menu-item" onclick="openSidebar('sidebarSessions')">Sessions</button>
         <button class="menu-item" onclick="openSidebar('sidebarPCs')">PCs</button>
+        <button class="menu-item" onclick="openSidebar('sidebarNPCs')">NPCs</button>
+        <button class="menu-item" onclick="openSidebar('sidebarOrte')">Orte</button>
         <button class="menu-item" onclick="goHome()">Home</button>
       </div>
 
@@ -295,7 +292,6 @@
       <button class="menu-button" id="menuButton" onclick="toggleMenu()">Menu</button>
     </div>
 
-    <script src="/assets/js/scale.fix.js"></script>
     <script src="/assets/js/main.js"></script>
 
   </body>

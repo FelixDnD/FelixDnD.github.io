@@ -8,15 +8,12 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/menu.css?v=" | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
   </head>
 
   <body>
     <div class="wrapper">
       <header class="site-header">
-        <div class="header-inner">
           <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        </div>
       </header>
 
       <div class="main-container">
@@ -30,19 +27,19 @@
       </footer>
 
       <!-- Sidebars -->
-        <div class="sidebar" id="sidebarOrte"><div class="sidebar-content">{% include navOrte.html %}</div></div>
-        <div class="sidebar" id="sidebarNPCs"><div class="sidebar-content">{% include navNPCs.html %}</div></div>
-        <div class="sidebar" id="sidebarSessions"><div class="sidebar-content">{% include navSessions.html %}</div></div>
-        <div class="sidebar" id="sidebarPCs"><div class="sidebar-content">{% include navPCs.html %}</div></div>
+      <div class="sidebar" id="sidebarOrte"><div class="sidebar-content">{% include navOrte.html %}</div></div>
+      <div class="sidebar" id="sidebarNPCs"><div class="sidebar-content">{% include navNPCs.html %}</div></div>
+      <div class="sidebar" id="sidebarSessions"><div class="sidebar-content">{% include navSessions.html %}</div></div>
+      <div class="sidebar" id="sidebarPCs"><div class="sidebar-content">{% include navPCs.html %}</div></div>
 
-        <div class="overlay" id="overlay" onclick="closeSidebars()"></div>
+      <div class="overlay" id="overlay" onclick="closeSidebars()"></div>
 
       <!-- Radial Menu -->
       <div class="menu" id="menu">
-        <button class="menu-item" onclick="openSidebar('sidebarOrte')">Orte</button>
-        <button class="menu-item" onclick="openSidebar('sidebarNPCs')">NPCs</button>
         <button class="menu-item" onclick="openSidebar('sidebarSessions')">Sessions</button>
         <button class="menu-item" onclick="openSidebar('sidebarPCs')">PCs</button>
+        <button class="menu-item" onclick="openSidebar('sidebarNPCs')">NPCs</button>
+        <button class="menu-item" onclick="openSidebar('sidebarOrte')">Orte</button>
         <button class="menu-item" onclick="goHome()">Home</button>
       </div>
 
@@ -50,7 +47,6 @@
       <button class="menu-button" id="menuButton" onclick="toggleMenu()">Menu</button>
     </div>
 
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
 
   </body>
