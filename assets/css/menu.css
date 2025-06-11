@@ -5,6 +5,7 @@
   right: 10px;
   background: #444;
   color: white;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
   border: none;
   border-radius: 8px;
   padding: 10px 14px;
@@ -104,15 +105,15 @@
 
 .scroll-top-button {
   position: fixed;
-  bottom: 90px;
-  right: 20px;
-  background: #333;
+  bottom: 70px;
+  right: 15px;
+  background: #444;
   color: white;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
   border: none;
-  border-radius: 50%;
-  width: 56px;
-  height: 56px;
-  font-size: 24px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
   cursor: pointer;
   z-index: 1000;
   display: none;

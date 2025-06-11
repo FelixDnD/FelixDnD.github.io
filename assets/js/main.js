@@ -27,10 +27,10 @@ window.scrollTo({ top: 0, behavior: "smooth" });
 
 // Show/hide scroll button after scrolling
 window.addEventListener("scroll", function () {
-const scrollTopBtn = document.getElementById("scrollTopBtn");
+const scrollTopButton = document.getElementById("scrollTopButton");
 if (window.scrollY > window.innerHeight * 2) {
-    scrollTopBtn.style.display = "inline-block";
+    scrollTopButton.style.display = "inline-block";
 } else {
-    scrollTopBtn.style.display = "none";
+    scrollTopButton.style.display = "none";
 }
-});
+})
