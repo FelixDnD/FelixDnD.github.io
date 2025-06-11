@@ -94,3 +94,10 @@
 .overlay.show {
   display: block;
 }
+
+@media (prefers-color-scheme: dark) {
+  .sidebar {
+    background: #121212;
+    color: #e0e0e0;
+  }
+}
