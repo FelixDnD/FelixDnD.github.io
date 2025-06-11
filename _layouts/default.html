@@ -7,10 +7,7 @@
 
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/sidebarMobile.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="{{ "/assets/css/menu.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
 
@@ -18,16 +15,11 @@
     <div class="wrapper">
       <header class="site-header">
         <div class="header-inner">
-          <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
           <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         </div>
       </header>
 
       <div class="main-container">
-        <aside class="sidebar" id="sidebar">
-          {% include navigation-tree.html %}
-        </aside>
-
         <main class="content">
           {{ content }}
         </main>
@@ -38,10 +30,10 @@
       </footer>
 
       <!-- Sidebars -->
-        <div class="sidebar" id="sidebarOrte"><p>{% include navTreeMobileOrte.html %}</p></div>
-        <div class="sidebar" id="sidebarNPCs"><p>{% include navTreeMobileNPCs.html %}</p></div>
-        <div class="sidebar" id="sidebarSessions"><p>{% include navTreeMobileSessions.html %}</p></div>
-        <div class="sidebar" id="sidebarPCs"><p>{% include navTreeMobilePCs.html %}</p></div>
+        <div class="sidebar" id="sidebarOrte"><p>{% include navOrte.html %}</p></div>
+        <div class="sidebar" id="sidebarNPCs"><p>{% include navNPCs.html %}</p></div>
+        <div class="sidebar" id="sidebarSessions"><p>{% include navSessions.html %}</p></div>
+        <div class="sidebar" id="sidebarPCs"><p>{% include navPCs.html %}</p></div>
 
         <div class="overlay" id="overlay" onclick="closeSidebars()"></div>
 
@@ -59,32 +51,7 @@
     </div>
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script>
-      function toggleSidebar() {
-        const sidebar = document.getElementById('sidebar');
-        sidebar.classList.toggle('active');
-      }
+    <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
 
-        function toggleMenu() {
-        document.getElementById("menu").classList.add("open");
-        document.getElementById("menuButton").style.display = "none";
-      }
-
-      function openSidebar(id) {
-        closeSidebars(); // close others
-        document.getElementById(id).classList.add("open");
-        document.getElementById("overlay").classList.add("show");
-        document.getElementById("menu").classList.remove("open");
-      }
-
-      function closeSidebars() {
-        document.querySelectorAll('.sidebar').forEach(el => el.classList.remove("open"));
-        document.getElementById("overlay").classList.remove("show");
-      }
-
-      function goHome() {
-        window.location.href = "/index.html";
-      }
-    </script>
   </body>
 </html>

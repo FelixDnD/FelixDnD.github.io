@@ -42,40 +42,6 @@ body {
   padding-top: 0px;
 }
 
-/*
-.sidebar {
-  flex-shrink: 0;
-  padding: 5px;
-  padding-right: 10px;
-  width: 200px;
-  border-right: 2px solid #ddd;
-  min-height: 100%
-}
-
-.sidebar ul {
-  list-style-type: none;
-  padding-left: 0;
-  padding-right: 0;
-  list-style-position: inside;
-}
-
-.sidebar ul li {
-  margin-left: 5px;
-  margin-right:5px;
-}
-
-.sidebar-toggle {
-  display: none;
-  width: fit-content;
-  padding: 0.5rem;
-  font-size: 1.5rem;
-  color: black;
-  background-color: white;
-  border: none;
-}
-
-*/
-
 a {
   font: inherit;
   color: inherit;
@@ -102,23 +68,4 @@ a {
   .main-container {
     flex-direction: row;
   }
-
-  /*
-  .content {
-    min-width: 95%;
-    overflow: hidden;
-  }
-
-  .sidebar {
-    display: none;
-  }
-
-  .sidebar.active {
-    display: flex;
-  }
-
-  .sidebar-toggle {
-    display: inline-block;
-  }
-*/
 }
