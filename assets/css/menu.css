@@ -53,6 +53,10 @@
   transform: translateX(100%);
   transition: transform 0.3s ease;
   z-index: 998;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .sidebar.open {
