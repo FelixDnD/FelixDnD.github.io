@@ -1,4 +1,16 @@
 title: "DnD Mini Wiki"
-remote_theme: pages-themes/minimal@v0.2.0
+baseurl: ""
+url: ""
+# remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+# - jekyll-remote-theme
+  - jekyll-seo-tag
+markdown: kramdown
+collections:
+  content:
+    output: true
+defaults:
+  - scope:
+      path: "content"
+    values:
+      layout: "default"

@@ -1,0 +1,37 @@
+<nav>
+    <h3>PCs</h3>
+    <ul>
+    {% for page in site.pages %}
+        {% if page.path contains 'PCs/' and page.path contains '.md' %}
+        <li><a href="{{ page.url | relative_url }}">{{ page.title | default: page.path | split: '/' | last | replace: '.md', '' }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+
+    <h3>NPCs</h3>
+    <ul>
+    {% for page in site.pages %}
+        {% if page.path contains 'NPCs/' and page.path contains '.md' %}
+        <li><a href="{{ page.url | relative_url }}">{{ page.title | default: page.path | split: '/' | last | replace: '.md', '' }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+
+    <h3>Orte</h3>
+    <ul>
+    {% for page in site.pages %}
+        {% if page.path contains 'Orte/' and page.path contains '.md' %}
+        <li><a href="{{ page.url | relative_url }}">{{ page.title | default: page.path | split: '/' | last | replace: '.md', '' }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+
+    <h3>Sessions</h3>
+    <ul>
+    {% for page in site.pages %}
+        {% if page.path contains 'Sessions/' and page.path contains '.md' %}
+        <li><a href="{{ page.url | relative_url }}">{{ page.title | default: page.path | split: '/' | last | replace: '.md', '' }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</nav>
