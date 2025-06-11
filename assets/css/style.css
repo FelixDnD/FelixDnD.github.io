@@ -3,7 +3,7 @@ html {
     margin-right: auto;
     border-left: 2px solid #ddd;
     border-right: 2px solid #ddd;
-    width: 1000px;
+    max-width: 800px;
     min-height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -13,8 +13,7 @@ body {
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
+  display: block;
   min-height: 100vh;
 }
 
@@ -25,13 +24,11 @@ body {
 }
 
 .main-container {
-  display: flex;
+  display: block;
   overflow: hidden;
-  flex: 1;
 }
 
 .content {
-  flex-grow: 0;
   padding: 10px;
   padding-top: 0px;
 }
@@ -53,14 +50,10 @@ a {
   margin-bottom: -10px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   html {
-    width: 100%;
-    max-width: 800px;
-  }
-
-  .main-container {
-    flex-direction: row;
+    border-left: none;
+    border-right: none;
   }
 }
 

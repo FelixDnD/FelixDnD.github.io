@@ -20,3 +20,17 @@ document.getElementById("menuButton").style.display = "inline-block";
 function goHome() {
 window.location.href = "/index.html";
 }
+
+function scrollToTop() {
+window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// Show/hide scroll button after scrolling
+window.addEventListener("scroll", function () {
+const scrollTopBtn = document.getElementById("scrollTopBtn");
+if (window.scrollY > window.innerHeight * 2) {
+    scrollTopBtn.style.display = "inline-block";
+} else {
+    scrollTopBtn.style.display = "none";
+}
+});
