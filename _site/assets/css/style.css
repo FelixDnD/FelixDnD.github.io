@@ -36,6 +36,13 @@ body {
   flex: 1;
 }
 
+.content {
+  flex-grow: 0;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+/*
 .sidebar {
   flex-shrink: 0;
   padding: 5px;
@@ -43,12 +50,6 @@ body {
   width: 200px;
   border-right: 2px solid #ddd;
   min-height: 100%
-}
-
-.content {
-  flex-grow: 0;
-  padding: 10px;
-  padding-top: 0px;
 }
 
 .sidebar ul {
@@ -72,6 +73,8 @@ body {
   background-color: white;
   border: none;
 }
+
+*/
 
 a {
   font: inherit;
@@ -100,6 +103,7 @@ a {
     flex-direction: row;
   }
 
+  /*
   .content {
     min-width: 95%;
     overflow: hidden;
@@ -116,4 +120,5 @@ a {
   .sidebar-toggle {
     display: inline-block;
   }
+*/
 }

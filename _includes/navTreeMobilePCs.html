@@ -1,0 +1,12 @@
+<nav>
+    <h3 class="tree-h3">PCs</h3>
+    <ul>
+    <hr class="tree-hr">
+    {% for page in site.pages %}
+        {% if page.path contains 'PCs/' and page.path contains '.md' %}
+        <li><a href="{{ page.url | relative_url }}">{{ page.title | default: page.path | split: '/' | last | replace: '.md', '' }}</a></li>
+        <hr class="tree-hr">
+        {% endif %}
+    {% endfor %}
+    </ul>
+</nav>

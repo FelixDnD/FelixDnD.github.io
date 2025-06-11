@@ -7,6 +7,7 @@
 
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/sidebarMobile.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -35,6 +36,26 @@
       <footer>
 
       </footer>
+
+      <!-- Sidebars -->
+        <div class="sidebar" id="sidebarOrte"><p>{% include navTreeMobileOrte.html %}</p></div>
+        <div class="sidebar" id="sidebarNPCs"><p>{% include navTreeMobileNPCs.html %}</p></div>
+        <div class="sidebar" id="sidebarSessions"><p>{% include navTreeMobileSessions.html %}</p></div>
+        <div class="sidebar" id="sidebarPCs"><p>{% include navTreeMobilePCs.html %}</p></div>
+
+        <div class="overlay" id="overlay" onclick="closeSidebars()"></div>
+
+      <!-- Radial Menu -->
+      <div class="menu" id="menu">
+        <button class="menu-item" onclick="openSidebar('sidebarOrte')">Orte</button>
+        <button class="menu-item" onclick="openSidebar('sidebarNPCs')">NPCs</button>
+        <button class="menu-item" onclick="openSidebar('sidebarSessions')">Sessions</button>
+        <button class="menu-item" onclick="openSidebar('sidebarPCs')">PCs</button>
+        <button class="menu-item" onclick="goHome()">Home</button>
+      </div>
+
+      <!-- Floating Action Button -->
+      <button class="menu-button" id="menuButton" onclick="toggleMenu()">Menu</button>
     </div>
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
@@ -42,6 +63,27 @@
       function toggleSidebar() {
         const sidebar = document.getElementById('sidebar');
         sidebar.classList.toggle('active');
+      }
+
+        function toggleMenu() {
+        document.getElementById("menu").classList.add("open");
+        document.getElementById("menuButton").style.display = "none";
+      }
+
+      function openSidebar(id) {
+        closeSidebars(); // close others
+        document.getElementById(id).classList.add("open");
+        document.getElementById("overlay").classList.add("show");
+        document.getElementById("menu").classList.remove("open");
+      }
+
+      function closeSidebars() {
+        document.querySelectorAll('.sidebar').forEach(el => el.classList.remove("open"));
+        document.getElementById("overlay").classList.remove("show");
+      }
+
+      function goHome() {
+        window.location.href = "/index.html";
       }
     </script>
   </body>
