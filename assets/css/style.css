@@ -18,9 +18,27 @@ body {
 }
 
 .site-header {
-  padding-left: 10px;
+  display: flex;
+  align-items: center;        /* vertically center */
+  justify-content: space-between; /* put h1 left, search right */
+  gap: 1rem;                  /* optional spacing between items */
+  padding: 10px;
   border-bottom: 2px solid #ddd;
   margin-bottom: 10px;
+}
+
+.site-header h1 {
+  margin: 0;                  /* remove default margin */
+  font-size: 1.5rem;          /* adjust as you like */
+  white-space: nowrap;        /* prevent wrapping */
+}
+
+.site-header form {
+  margin: 0;                  /* remove form margin */
+  flex-shrink: 0;             /* prevent shrinking */
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .main-container {
