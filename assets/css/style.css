@@ -8,6 +8,16 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+  min-height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .site-header {
   padding: 1rem;
   border-bottom: 1px solid #ddd;
@@ -22,13 +32,15 @@ html {
 .main-container {
   display: flex;
   overflow: hidden;
+  flex: 1;
 }
 
 .sidebar {
   flex-shrink: 0;
   padding: 5px;
-  border-right: 1px solid #ddd;
   width: 200px;
+  border-right: 1px solid #ddd;
+  height: 100%
 }
 
 .content {
