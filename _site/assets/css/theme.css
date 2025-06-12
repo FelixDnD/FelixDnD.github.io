@@ -1,0 +1,31 @@
+:root {
+  /* Light mode colors */
+  --background-color: #fff;
+  --text-color: #000;
+  --border-color: #ddd;
+  --button-bg: #ddd;
+  --button-color: #000;
+  --button-shadow: rgba(0, 0, 0, 0.1);
+  --input-bg: #ddd;
+  --input-color: #000;
+  --sidebar-bg: #f4f4f4;
+  --sidebar-color: #000;
+  --hr-color: #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Dark mode overrides */
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --border-color: #333;
+    --button-bg: #666;
+    --button-color: #e0e0e0;
+    --button-shadow: rgba(0, 0, 0, 0.6);
+    --input-bg: #666;
+    --input-color: #e0e0e0;
+    --sidebar-bg: #121212;
+    --sidebar-color: #e0e0e0;
+    --hr-color: #444;
+  }
+}

@@ -4,9 +4,8 @@ html, body {
   min-height: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
-}
-
-html {
+  background-color: var(--background-color);
+  color: var(--text-color);
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -18,66 +17,11 @@ html {
   width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
-  border-left: 2px solid #ddd;
-  border-right: 2px solid #ddd;
+  border-left: 2px solid var(--border-color);
+  border-right: 2px solid var(--border-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-
-.site-header {
-  display: flex;
-  flex-wrap: wrap; 
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 10px;
-  border-bottom: 2px solid #ddd;
-  margin-bottom: 10px;
-}
-
-.site-header h1 {
-  margin: 0;
-  font-size: 1.5rem;
-  white-space: nowrap;
-  flex-grow: 1;
-}
-
-.site-header form {
-  margin: 0;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-left: auto; 
-}
-
-.main-container {
-  display: block;
-  overflow: hidden;
-}
-
-.content {
-  padding: 10px;
-  padding-top: 0px;
-}
-
-a {
-  font: inherit;
-  color: inherit;
-  text-decoration: none;
-}
-
-.tree-hr {
-    border: none;
-    height: 2px;
-    background-color: #ddd;
-    margin: 4px 0;
-}
-
-.tree-h3 {
-  margin-bottom: -10px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -87,9 +31,29 @@ a {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    background: #121212;
-    color: #e0e0e0;
-  }
+.main-container {
+  display: block;
+  overflow: hidden;
+}
+
+.content {
+  padding: 10px;
+  padding-top: 0;
+}
+
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.tree-hr {
+  border: none;
+  height: 2px;
+  background-color: var(--hr-color);
+  margin: 4px 0;
+}
+
+.tree-h3 {
+  margin-bottom: -10px;
 }
