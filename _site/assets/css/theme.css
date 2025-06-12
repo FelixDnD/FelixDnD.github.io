@@ -11,6 +11,7 @@
   --sidebar-bg: #f4f4f4;
   --sidebar-color: #000;
   --hr-color: #ddd;
+  --overlay-background: rgba(0, 0, 0, 0.2);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,5 +28,6 @@
     --sidebar-bg: #121212;
     --sidebar-color: #e0e0e0;
     --hr-color: #444;
+    --overlay-background: rgba(0, 0, 0, 0.4);
   }
 }
