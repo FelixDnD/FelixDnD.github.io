@@ -7,21 +7,23 @@ Hier könnte Ihre Werbung stehen.
 
 * * *
 
-Lists/Symbols work like this:
+### Erklärung Listen:
 
-<ul>
-  <li>Normal bullet item</li>
-  <li><a href="#">Link bullet item</a></li>
+<ul class="custom-list">
+  <li>Normal item</li>
+  <li><a href="#">Link item</a></li>
   <li>
     <details>
-      <summary>Expandable bullet item</summary>
-        Expanded content goes here.
+      <summary>Expandable item</summary>
+      <p>More content here.</p>
     </details>
   </li>
-  <li>Another normal bullet</li>
-  <li><a href="#">Another link item</a></li>
 </ul>
 
-This might not quite work for some firefox version.
+* * *
+
+### Bugfixing
+
+Sollte irgendetwas nicht funktionieren, bitte Screenshot machen und mir schicken!
 
 * * *

@@ -109,88 +109,45 @@ strong {
   letter-spacing: 0.05rem;
 }
 
-ul {
+.custom-list {
   list-style: none;
-  padding-left: 1.5em;
+  padding-left: 0;
+  margin: 0;
 }
 
-ul li {
+.custom-list li {
   position: relative;
-  padding-left: 1.2em;
+  padding-left: 1.5em;
   margin-bottom: 0.5em;
+}
+
+/* Remove native summary markers */
+.custom-list li summary {
+  list-style: none;
+}
+.custom-list li summary::-webkit-details-marker {
+  display: none;
 }
 
 /* Default bullet */
-ul li::before {
+.custom-list li::before {
   content: "•";
   position: absolute;
   left: 0;
+  top: 0;
 }
 
-/* Arrow bullet for <li> with <a> */
-ul li:has(> a):not(:has(details))::before {
-  content: "⤷";
+/* Link bullet */
+.custom-list li.is-link::before {
+  content: "➶"; /* or 🗡️, ✦ etc */
 }
 
-/* Expand/collapse symbol handled inside <summary> */
-ul li:has(> details) summary {
-  list-style: none;
-  padding-left: 0;
-  position: relative;
-}
-
-ul li:has(> details) summary::before {
+/* Expandable bullet */
+.custom-list li.is-expand::before {
   content: "▸";
-  position: absolute;
-  left: -1.2em;
-  transition: transform 0.2s ease;
 }
 
-ul li:has(> details[open]) summary::before {
+/* Change to down arrow when open */
+.custom-list li.is-expand details[open]::before {
   content: "▾";
-}
-ul {
-  list-style: none;
-  padding-left: 1.5em;
-}
-
-ul li {
-  position: relative;
-  padding-left: 1.2em;
-  margin-bottom: 0.5em;
-}
-
-ul li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-}
-
-/* Arrow for links */
-ul li.li-link::before {
-  content: "⤷";
-}
-
-/* Expandable items */
-ul li.li-expand summary {
-  list-style: none;
-  padding-left: 0;
-  position: relative;
-  cursor: pointer;
-  display: inline-block;
-}
-
-ul li.li-expand summary::before {
-  content: "▸";
-  position: absolute;
-  left: -1.2em;
-  transition: transform 0.2s ease;
-}
-
-ul li.li-expand details[open] summary::before {
-  content: "▾";
-}
-
-ul li.li-expand summary::-webkit-details-marker {
-  display: none;
 }

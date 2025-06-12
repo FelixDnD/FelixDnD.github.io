@@ -37,12 +37,12 @@ if (window.scrollY > window.innerHeight * 2) {
 })
 
 // List detection
-  document.querySelectorAll("ul li").forEach(li => {
+  document.querySelectorAll("ul.custom-list > li").forEach(li => {
     if (li.querySelector("details")) {
-      li.classList.add("li-expand");
+      li.classList.add("is-expand");
     } else if (li.querySelector("a")) {
-      li.classList.add("li-link");
+      li.classList.add("is-link");
     } else {
-      li.classList.add("li-normal");
+      li.classList.add("is-normal");
     }
   });
