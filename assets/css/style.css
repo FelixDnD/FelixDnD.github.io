@@ -24,6 +24,7 @@ body {
   justify-content: space-between;
   gap: 1rem;
   padding: 10px;
+  padding-right: 0px;
   border-bottom: 2px solid #ddd;
   margin-bottom: 10px;
 }

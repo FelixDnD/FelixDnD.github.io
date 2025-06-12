@@ -22,6 +22,7 @@
   display: none;
   flex-direction: row;
   align-items: center;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   gap: 8px;
   z-index: 999;
   max-width: calc(100vw - 20px); 
@@ -49,6 +50,7 @@
   border: none;
   padding: 10px 14px;
   border-radius: 8px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   font-size: 16px;
   flex-shrink: 0;
