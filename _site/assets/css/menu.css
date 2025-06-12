@@ -9,7 +9,7 @@
   border: none;
   border-radius: 8px;
   padding: 10px 14px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   z-index: 1000;
 }
@@ -131,7 +131,7 @@
   border: none;
   padding: 10px 14px;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   z-index: 1000;
   display: none;
@@ -141,7 +141,7 @@
 .site-header input[type="text"],
 .site-header input[type="search"] {
   padding: 10px 14px;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 8px;
   border: none;
   background: #444;
@@ -159,7 +159,7 @@
   border: none;
   padding: 10px 14px;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease, opacity 0.3s ease;
   text-align: center;
