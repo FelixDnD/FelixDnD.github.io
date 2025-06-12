@@ -1,17 +1,43 @@
 .menu-button,
 .menu-item,
 .scroll-top-button,
-.site-header input[type="submit"] {
-  background: var(--button-bg);
-  color: var(--button-color);
+.site-header input[type="submit"],
+.site-header input[type="text"],
+.site-header input[type="search"] {
+  font-family: inherit;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-variant-caps: small-caps;
+  font-variant-alternates: normal;
+  font-variant-east-asian: normal;
+  font-variant-emoji: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-size: 1.2em;
+  letter-spacing: 0.05rem;
+  background: var(--border-color);
+  color: var(--details-color);
   box-shadow: 2px 0 5px var(--button-shadow);
   border: none;
   border-radius: 8px;
   padding: 10px 14px;
-  font-size: 16px;
-  cursor: pointer;
-  flex-shrink: 0;
   transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.menu-button,
+.menu-item,
+.scroll-top-button,
+.site-header input[type="submit"] {
+  flex-shrink: 0;
+}
+
+.site-header input[type="text"],
+.site-header input[type="search"] {
+  outline: none;
+  min-width: 100px;
+  max-width: 120px;
+
 }
 
 .scroll-top-button {
@@ -58,18 +84,18 @@
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 250px;
-  background: var(--sidebar-bg);
-  color: var(--sidebar-color);
-  padding: 20px;
-  box-shadow: 2px 0 5px var(--button-shadow);
   right: 0;
+  width: 250px;
   left: auto;
-  transform: translateX(100%);
-  transition: transform 0.3s ease;
-  z-index: 998;
   display: flex;
   flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  background: var(--background-color);
+  color: var(--text-color);
+  padding: 20px;
+  box-shadow: 2px 0 5px var(--button-shadow);
+  z-index: 998;
 }
 
 .sidebar.open {
@@ -105,17 +131,4 @@
   display: block;
 }
 
-.site-header input[type="text"],
-.site-header input[type="search"] {
-  padding: 10px 14px;
-  font-size: 16px;
-  border-radius: 8px;
-  border: none;
-  background: var(--input-bg);
-  color: var(--input-color);
-  box-shadow: 2px 0 5px var(--button-shadow);
-  outline: none;
-  min-width: 100px;
-  max-width: 120px;
-  transition: background-color 0.3s ease;
-}
+
