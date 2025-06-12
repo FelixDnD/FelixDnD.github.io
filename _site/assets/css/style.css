@@ -1,0 +1,83 @@
+html {
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    max-width: 800px;
+    min-height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  min-height: 100%;
+}
+
+.wrapper {
+  display: block;
+  min-height: 100vh;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;        /* vertically center */
+  justify-content: space-between; /* put h1 left, search right */
+  gap: 1rem;                  /* optional spacing between items */
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.site-header h1 {
+  margin: 0;                  /* remove default margin */
+  font-size: 1.5rem;          /* adjust as you like */
+  white-space: nowrap;        /* prevent wrapping */
+}
+
+.site-header form {
+  margin: 0;                  /* remove form margin */
+  flex-shrink: 0;             /* prevent shrinking */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.main-container {
+  display: block;
+  overflow: hidden;
+}
+
+.content {
+  padding: 10px;
+  padding-top: 0px;
+}
+
+a {
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.tree-hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 4px 0;
+}
+
+.tree-h3 {
+  margin-bottom: -10px;
+}
+
+@media only screen and (max-width: 800px) {
+  html {
+    border-left: none;
+    border-right: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background: #121212;
+    color: #e0e0e0;
+  }
+}
