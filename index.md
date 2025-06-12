@@ -14,8 +14,8 @@ Hier könnte Ihre Werbung stehen.
   <li><a href="#">Link item</a></li>
   <li>
     <details>
-      <summary>Expandable item</summary>
-      <p>More content here.</p>
+      <summary>Expandable item.</summary>
+      More content here.
     </details>
   </li>
 </ul>
