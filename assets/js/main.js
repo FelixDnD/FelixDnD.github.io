@@ -2,6 +2,7 @@
 function toggleMenu() {
 document.getElementById("menu").classList.add("open");
 document.getElementById("menuButton").style.display = "none";
+menu.scrollLeft = menu.scrollWidth;
 }
 
 function openSidebar(id) {
