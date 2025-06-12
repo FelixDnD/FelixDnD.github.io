@@ -22,4 +22,6 @@ Lists/Symbols work like this:
   <li><a href="#">Another link item</a></li>
 </ul>
 
+This might not quite work for some firefox version.
+
 * * *

@@ -149,3 +149,48 @@ ul li:has(> details) summary::before {
 ul li:has(> details[open]) summary::before {
   content: "▾";
 }
+ul {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+ul li {
+  position: relative;
+  padding-left: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+}
+
+/* Arrow for links */
+ul li.li-link::before {
+  content: "⤷";
+}
+
+/* Expandable items */
+ul li.li-expand summary {
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+ul li.li-expand summary::before {
+  content: "▸";
+  position: absolute;
+  left: -1.2em;
+  transition: transform 0.2s ease;
+}
+
+ul li.li-expand details[open] summary::before {
+  content: "▾";
+}
+
+ul li.li-expand summary::-webkit-details-marker {
+  display: none;
+}

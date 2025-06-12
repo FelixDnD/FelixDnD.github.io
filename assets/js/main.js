@@ -6,7 +6,7 @@ menu.scrollLeft = menu.scrollWidth;
 }
 
 function openSidebar(id) {
-closeSidebars(); // close others
+closeSidebars();
 document.getElementById(id).classList.add("open");
 document.getElementById("overlay").classList.add("show");
 document.getElementById("menu").classList.remove("open");
@@ -35,3 +35,14 @@ if (window.scrollY > window.innerHeight * 2) {
     scrollTopButton.style.display = "none";
 }
 })
+
+// List detection
+  document.querySelectorAll("ul li").forEach(li => {
+    if (li.querySelector("details")) {
+      li.classList.add("li-expand");
+    } else if (li.querySelector("a")) {
+      li.classList.add("li-link");
+    } else {
+      li.classList.add("li-normal");
+    }
+  });
