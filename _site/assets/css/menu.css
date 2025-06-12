@@ -22,16 +22,13 @@
   display: none;
   flex-direction: row;
   align-items: center;
-  gap: clamp(4px, 2vw, 12px);
+  gap: 8px;
   z-index: 999;
-
   max-width: calc(100vw - 40px); 
   overflow-x: auto;
   padding-right: 10px;
   padding-left: 10px;
-
   justify-content: flex-start;
-  direction: rtl;
 }
 
 /* Scrollbar hidden cross-browser */
@@ -54,7 +51,7 @@
   padding: 10px 14px;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 30px;
   flex-shrink: 0;
   scroll-snap-align: end;
   direction: ltr;
