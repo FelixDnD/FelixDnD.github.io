@@ -66,8 +66,21 @@ html, body {
   padding-top: 0;
 }
 
+h1,
+strong {
+  font-variant: small-caps;
+  font-variant-caps: small-caps;
+  font-variant-alternates: normal;
+  font-variant-east-asian: normal;
+  font-variant-emoji: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+}
+
 h1 {
   font-size: 1.8rem;
+  letter-spacing: 0.1rem;
 }
 
 h3 {
@@ -92,14 +105,47 @@ a {
 
 strong {
   font-weight: normal;
-  font-variant: small-caps;
-  font-variant-caps: small-caps;
-  font-variant-alternates: normal;
-  font-variant-east-asian: normal;
-  font-variant-emoji: normal;
-  font-variant-ligatures: normal;
-  font-variant-numeric: normal;
-  font-variant-position: normal;
   font-size: 1.2em;
   letter-spacing: 0.05rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+ul li {
+  position: relative;
+  padding-left: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+/* Default bullet */
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+}
+
+/* Arrow bullet for <li> with <a> */
+ul li:has(> a):not(:has(details))::before {
+  content: "⤷";
+}
+
+/* Expand/collapse symbol handled inside <summary> */
+ul li:has(> details) summary {
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+}
+
+ul li:has(> details) summary::before {
+  content: "▸";
+  position: absolute;
+  left: -1.2em;
+  transition: transform 0.2s ease;
+}
+
+ul li:has(> details[open]) summary::before {
+  content: "▾";
 }

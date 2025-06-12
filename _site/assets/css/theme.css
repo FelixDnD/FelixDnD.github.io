@@ -12,7 +12,7 @@
   :root {
     /* Dark mode overrides */
     --background-color: #111111;
-    --border-color: #ccc;
+    --border-color: #aaa;
     --text-color: #fffff8;
     --details-color: #a00000;
     --button-shadow: rgba(0, 0, 0, 0.8);
