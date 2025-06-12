@@ -1,21 +1,21 @@
-html {
-    margin-left: auto;
-    margin-right: auto;
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
-    max-width: 800px;
-    min-height: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-body {
+html, body {
+  margin: 0;
+  padding: 0;
   min-height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .wrapper {
-  display: block;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 2px solid #ddd;
+  border-right: 2px solid #ddd;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
 
 .site-header {
   display: flex;
@@ -24,7 +24,6 @@ body {
   justify-content: space-between;
   gap: 1rem;
   padding: 10px;
-  padding-right: 0px;
   border-bottom: 2px solid #ddd;
   margin-bottom: 10px;
 }
