@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Search Results
+permalink: /search/
 ---
 <div id="search-results"></div>
 
