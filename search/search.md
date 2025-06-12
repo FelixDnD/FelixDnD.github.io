@@ -3,6 +3,10 @@ layout: default
 title: Search Results
 permalink: /search/
 ---
+Die Suche funktioniert etwas seltsam... Sollte ein Begriff nicht gefunden werden, hilft es manchmal, den letzten Buchstaben wegzulassen. That being said, here we go:
+
+* * *
+
 <div id="search-results"></div>
 
 <script>

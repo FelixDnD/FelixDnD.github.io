@@ -19,26 +19,29 @@ body {
 
 .site-header {
   display: flex;
-  align-items: center;        /* vertically center */
-  justify-content: space-between; /* put h1 left, search right */
-  gap: 1rem;                  /* optional spacing between items */
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
   padding: 10px;
   border-bottom: 2px solid #ddd;
   margin-bottom: 10px;
 }
 
 .site-header h1 {
-  margin: 0;                  /* remove default margin */
-  font-size: 1.5rem;          /* adjust as you like */
-  white-space: nowrap;        /* prevent wrapping */
+  margin: 0;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  flex-grow: 1;
 }
 
 .site-header form {
-  margin: 0;                  /* remove form margin */
-  flex-shrink: 0;             /* prevent shrinking */
+  margin: 0;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-left: auto; 
 }
 
 .main-container {
