@@ -8,7 +8,7 @@
   --button-shadow: rgba(0, 0, 0, 0.1);
   --input-bg: #ddd;
   --input-color: #000;
-  --sidebar-bg: #f4f4f4;
+  --sidebar-bg: #fff;
   --sidebar-color: #000;
   --hr-color: #ddd;
   --overlay-background: rgba(0, 0, 0, 0.2);
@@ -19,15 +19,15 @@
     /* Dark mode overrides */
     --background-color: #121212;
     --text-color: #e0e0e0;
-    --border-color: #333;
-    --button-bg: #666;
+    --border-color: #808080;
+    --button-bg: #333;
     --button-color: #e0e0e0;
-    --button-shadow: rgba(0, 0, 0, 0.6);
-    --input-bg: #666;
+    --button-shadow: rgba(0, 0, 0, 0.8);
+    --input-bg: #333;
     --input-color: #e0e0e0;
     --sidebar-bg: #121212;
     --sidebar-color: #e0e0e0;
-    --hr-color: #444;
+    --hr-color: #808080;
     --overlay-background: rgba(0, 0, 0, 0.4);
   }
 }
