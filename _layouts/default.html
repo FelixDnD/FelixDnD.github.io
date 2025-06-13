@@ -17,6 +17,7 @@
       <header class="site-header">
           <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
           {% include search-box.html %}
+          <button class="expand-collapse-button" onclick="expandCollapseAll()" id="expand-collapse-button">▾ all</button>
       </header>
 
       <div class="main-container">

@@ -26,6 +26,19 @@ function scrollToTop() {
 window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
+function expandCollapseAll() {
+  const allDetails = document.querySelectorAll('details');
+  const button = document.getElementById('expand-collapse-button');
+  const anyOpen = Array.from(allDetails).some(detail => detail.open);
+
+  allDetails.forEach(detail => {
+    detail.open = !anyOpen;
+  });
+
+  // Update button text
+  button.textContent = anyOpen ? '▾ all' : '▸ all';
+}
+
 // Show/hide scroll button after scrolling
 window.addEventListener("scroll", function () {
 const scrollTopButton = document.getElementById("scrollTopButton");
@@ -37,7 +50,7 @@ if (window.scrollY > window.innerHeight * 2) {
 })
 
 // List detection
-  document.querySelectorAll("ul > li").forEach(li => {
+document.querySelectorAll("ul > li").forEach(li => {
     if (li.querySelector("details")) {
       li.classList.add("is-expand");
     } else if (li.querySelector("a")) {

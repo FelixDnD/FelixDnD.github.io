@@ -1,6 +1,7 @@
 .menu-button,
 .menu-item,
 .scroll-top-button,
+.expand-collapse-button,
 .site-header input[type="submit"],
 .site-header input[type="text"] {
   font-family: inherit;
@@ -127,6 +128,11 @@
 
 .sidebar ul li {
   margin-left: 10px;
+}
+
+.sidebar a {
+  display: block; 
+  width: 100%;
 }
 
 .overlay {

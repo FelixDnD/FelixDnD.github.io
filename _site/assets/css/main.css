@@ -36,7 +36,7 @@ html, body {
   flex-wrap: wrap; 
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.5rem;
   padding: 10px;
   border-bottom: 2px solid var(--border-color);
 }
@@ -140,7 +140,7 @@ ul summary::-webkit-details-marker {
 ul li.is-normal::before {
   content: "•";
   position: absolute;
-  left: 0;
+  left: 2px;
   top: 0;
 }
 
@@ -148,7 +148,7 @@ ul li.is-normal::before {
 ul li.is-link::before {
   content: "\2192\FE0E";
   position: absolute;
-  left: -4px;
+  left: -2px;
   top: 0;
 }
 
