@@ -30,6 +30,6 @@ Sollte irgendetwas nicht funktionieren, bitte Screenshot machen und mir schicken
 
 ### Patch notes / note to self
 
-- Bugfix: Display search preview on mobile.
+- Bugfix: Display search preview on mobile. (2)
 
 * * *

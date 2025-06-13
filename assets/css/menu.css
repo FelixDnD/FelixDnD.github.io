@@ -38,7 +38,12 @@
 
 .site-header input[type="text"]::placeholder {
   color: var(--details-color);
-  opacity: 0.8; /* slightly faded, as is common for placeholders */
+  opacity: 0.8;
+}
+
+.site-header input[type="text"]::-webkit-input-placeholder {
+  color: var(--details-color);
+  opacity: 0.8;
 }
 
 .scroll-top-button {
