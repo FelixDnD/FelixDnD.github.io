@@ -36,14 +36,9 @@
   max-width: 120px;
 }
 
-.site-header input[type="text"]::placeholder {
-  color: var(--details-color);
-  opacity: 0.8;
-}
-
 .site-header input[type="text"]::-webkit-input-placeholder {
   color: var(--details-color);
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .scroll-top-button {
