@@ -3,9 +3,6 @@ layout: default
 title: Search Results
 permalink: /search/
 ---
-Sollte ein Begriff nicht gefunden werden, hilft es manchmal, den letzten Buchstaben wegzulassen.
-
-* * *
 
 <div id="search-results"></div>
 
@@ -24,4 +21,6 @@ window.store = {
 
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+
+Sollte ein Begriff nicht gefunden werden, hilft es manchmal, den letzten Buchstaben wegzulassen.
 

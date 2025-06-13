@@ -2,7 +2,6 @@
 .menu-item,
 .scroll-top-button,
 .expand-collapse-button,
-.site-header input[type="submit"],
 .site-header input[type="text"] {
   font-family: inherit;
   font-weight: normal;
@@ -27,8 +26,7 @@
 
 .menu-button,
 .menu-item,
-.scroll-top-button,
-.site-header input[type="submit"] {
+.scroll-top-button {
   flex-shrink: 0;
 }
 
