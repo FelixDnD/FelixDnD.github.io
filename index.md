@@ -9,7 +9,7 @@ Hier könnte Ihre Werbung stehen.
 
 ### Erklärung Listen:
 
-<ul class="custom-list">
+<ul>
   <li>Normal item</li>
   <li><a href="#">Link item</a></li>
   <li>

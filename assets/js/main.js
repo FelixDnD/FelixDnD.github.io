@@ -37,7 +37,7 @@ if (window.scrollY > window.innerHeight * 2) {
 })
 
 // List detection
-  document.querySelectorAll("ul.custom-list > li").forEach(li => {
+  document.querySelectorAll("ul > li").forEach(li => {
     if (li.querySelector("details")) {
       li.classList.add("is-expand");
     } else if (li.querySelector("a")) {

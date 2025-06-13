@@ -111,30 +111,30 @@ strong {
 
 /* custom lists with li, li+a, li+details */
 
-.custom-list {
+ul {
   list-style: none;
   padding-left: 10px;
 }
 
-.custom-list li {
+ul li {
   position: relative;
   padding-left: 1.5em;
   margin-bottom: 0.5em;
 }
 
 /* Remove native bullets and triangle marker from <summary> */
-.custom-list summary {
+ul summary {
   list-style: none;
   display: inline-flex;
   align-items: center;
   cursor: pointer;
 }
-.custom-list summary::-webkit-details-marker {
+ul summary::-webkit-details-marker {
   display: none;
 }
 
 /* Default bullet for normal items */
-.custom-list li.is-normal::before {
+ul li.is-normal::before {
   content: "•";
   position: absolute;
   left: 0;
@@ -142,18 +142,18 @@ strong {
 }
 
 /* Custom bullet for links */
-.custom-list li.is-link::before {
-  content: "\21AA\FE0E";
+ul li.is-link::before {
+  content: "\2192\FE0E";
   position: absolute;
   left: 0;
   top: 0;
 }
 
 /* Expand/collapse arrow on summary only */
-.custom-list li.is-expand::before {
+ul li.is-expand::before {
   content: "";
 } /* prevent double bullets */
-.custom-list li.is-expand summary::before {
+ul li.is-expand summary::before {
   content: "▸";
   display: inline-block;
   width: 1em;
@@ -163,6 +163,6 @@ strong {
 }
 
 /* Rotate when open */
-.custom-list li.is-expand details[open] summary::before {
+ul li.is-expand details[open] summary::before {
   content: "▾";
 }
