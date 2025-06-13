@@ -27,3 +27,9 @@ Hier könnte Ihre Werbung stehen.
 Sollte irgendetwas nicht funktionieren, bitte Screenshot machen und mir schicken!
 
 * * *
+
+### Patch notes / note to self
+
+- Bugfix: Display search preview on mobile.
+
+* * *

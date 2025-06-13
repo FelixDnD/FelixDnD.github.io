@@ -34,7 +34,11 @@
   outline: none;
   min-width: 100px;
   max-width: 120px;
+}
 
+.site-header input[type="text"]::placeholder {
+  color: var(--details-color);
+  opacity: 0.8; /* slightly faded, as is common for placeholders */
 }
 
 .scroll-top-button {
