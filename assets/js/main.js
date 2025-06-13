@@ -35,9 +35,24 @@ function expandCollapseAll() {
     detail.open = !anyOpen;
   });
 
-  // Update button text
-  button.textContent = anyOpen ? '▾ All' : '▸ All';
+  updateButtonText();
 }
+
+function updateButtonText() {
+  const allDetails = document.querySelectorAll('details');
+  const button = document.getElementById('expand-collapse-button');
+  const anyOpen = Array.from(allDetails).some(detail => detail.open);
+  button.textContent = anyOpen ? '▴ All' : '▾ All';
+}
+
+// Attach toggle listeners once on page load
+document.addEventListener('DOMContentLoaded', () => {
+  const allDetails = document.querySelectorAll('details');
+  allDetails.forEach(detail => {
+    detail.addEventListener('toggle', updateButtonText);
+  });
+});
+
 
 // Show/hide scroll button after scrolling
 window.addEventListener("scroll", function () {
