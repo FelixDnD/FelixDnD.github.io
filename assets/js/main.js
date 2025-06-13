@@ -42,7 +42,7 @@ function updateButtonText() {
   const allDetails = document.querySelectorAll('details');
   const button = document.getElementById('expand-collapse-button');
   const anyOpen = Array.from(allDetails).some(detail => detail.open);
-  button.textContent = anyOpen ? '▴ All' : '▾ All';
+  button.textContent = anyOpen ? '▸ All' : '▾ All';
 }
 
 // Attach toggle listeners once on page load
