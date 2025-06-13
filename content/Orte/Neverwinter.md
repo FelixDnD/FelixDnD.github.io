@@ -8,9 +8,9 @@ modified: 2025-05-30T00:48:33+02:00
 * * *
 
 ### Orte:
-- 
+- unbekannt
 
 * * *
 
 ### Personen:
-- **Lord Neverwinter.** wir haben in Session 5 einen versiegelten Brief für ihn von Anders erhalten.
+- <details><summary>Lord Neverwinter.</summary> Heißt iwie anders. Wir haben in Session 5 einen versiegelten Brief für ihn von Anders erhalten.</details>

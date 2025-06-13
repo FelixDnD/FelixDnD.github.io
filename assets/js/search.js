@@ -30,8 +30,9 @@ if (query && window.store) {
       const item = window.store[result.ref];
       const resultItem = document.createElement("div");
       resultItem.innerHTML = `
-        <h3><a href="${item.url}">${item.title}</a></h3>
-        <p>${item.content.slice(0, 150)}...</p>
+        <h1 style="font-size: 1.4rem">&#x2192;&#xFE0E; <a href="${item.url}">${item.title}</a></h1>
+        <p style="margin-top: -0.5rem">${item.content.slice(0, 150)}...</p>
+        <hr>
       `;
       resultsContainer.appendChild(resultItem);
     });

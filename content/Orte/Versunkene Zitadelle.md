@@ -10,20 +10,18 @@ Die versunkene Zitadelle liegt 1 1/2 Tagesreisen östlich von Helmswacht. Sie is
 * * *
 
 ### Orte:
-- **Eingang.** Gepflasterte Lichtung im Wald, von stehende und gestützte Säulen umgeben, Schlucht (30ft breit, viele Kilometer lang), Eingang am Boden der Schlucht.
-- **Tür mit Drache & Sonne.** -> Solis. verschlossen. Kobolde haben den Schlüssel.
-- **Raum mit 5 Särgen und 5 (jetzt) toten Skeletten..** 
+- <details><summary>Eingang.</summary> Gepflasterte Lichtung im Wald, von stehende und gestützte Säulen umgeben, Schlucht (30ft breit, viele Kilometer lang), Eingang am Boden der Schlucht.</details> 
+- <details><summary>Tür mit Drache & Sonne.</summary> -> Solis. verschlossen. Kobolde haben den Schlüssel.</details> 
+- **Raum mit 5 Särgen und 5 (jetzt) toten Skeletten.**
 
 * * *
 
 ### Personen:
-- **Ashaladon.** in drakonisch in die Wand gravierter Name
-- **Calcryx, Babydrache.** zuvor von Kobolden besessen, jetzt von Goblins entführt.
-- **Koboldstamm:** 
-	- Yusdrayl, Anführer
-	- Meepo, schluchzender Kobold
-- **Goblinstamm:** 
+- <details><summary>Ashaladon.</summary> in drakonisch in die Wand gravierter Name</details> 
+- <details><summary>Calcryx, Babydrache.</summary> zuvor von Kobolden besessen, jetzt von Goblins entführt.</details> 
+- <details><summary>Koboldstamm:</summary>Yusdrayl, Anführer, Meepo, schluchzender Kobold</details> 
+- **Goblinstamm:**
 
 * * *
 
-- **Passwort der Kobolde:** Ticklecorn auf Drakonisch. 
+- <details><summary>Passwort der Kobolde:</summary> Ticklecorn auf Drakonisch.</details> 

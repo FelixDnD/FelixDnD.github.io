@@ -2,8 +2,7 @@
 .menu-item,
 .scroll-top-button,
 .site-header input[type="submit"],
-.site-header input[type="text"],
-.site-header input[type="search"] {
+.site-header input[type="text"] {
   font-family: inherit;
   font-weight: normal;
   font-variant: small-caps;
@@ -32,8 +31,8 @@
   flex-shrink: 0;
 }
 
-.site-header input[type="text"],
-.site-header input[type="search"] {
+.site-header input[type="text"] {
+  font-size: 1rem;
   outline: none;
   min-width: 100px;
   max-width: 120px;

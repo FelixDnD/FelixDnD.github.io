@@ -67,7 +67,9 @@ html, body {
 }
 
 h1,
-strong {
+summary,
+strong,
+a {
   font-variant: small-caps;
   font-variant-caps: small-caps;
   font-variant-alternates: normal;
@@ -98,12 +100,13 @@ hr {
 }
 
 a {
-  font: inherit;
   color: inherit;
   text-decoration: none;
 }
 
-strong {
+strong,
+summary,
+a {
   font-weight: normal;
   font-size: 1.2em;
   letter-spacing: 0.05rem;
@@ -145,7 +148,7 @@ ul li.is-normal::before {
 ul li.is-link::before {
   content: "\2192\FE0E";
   position: absolute;
-  left: 0;
+  left: -4px;
   top: 0;
 }
 
@@ -157,8 +160,8 @@ ul li.is-expand summary::before {
   content: "▸";
   display: inline-block;
   width: 1em;
-  margin-left: -1.5em;
-  margin-right: 0.3em;
+  margin-left: -1.55rem;
+  margin-right: 0.3rem;
   transition: transform 0.2s ease;
 }
 
