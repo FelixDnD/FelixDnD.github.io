@@ -81,6 +81,19 @@ a {
   font-variant-position: normal;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+strong,
+summary,
+a {
+  font-weight: normal;
+  font-size: 1.1em;
+  letter-spacing: 0.05rem;
+}
+
 h1 {
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
@@ -98,19 +111,6 @@ hr {
   border: none;
   background-color: var(--border-color);
   height: 2px;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-strong,
-summary,
-a {
-  font-weight: normal;
-  font-size: 1.2em;
-  letter-spacing: 0.05rem;
 }
 
 /* custom lists with li, li+a, li+details */
