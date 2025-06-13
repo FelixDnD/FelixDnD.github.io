@@ -36,7 +36,7 @@ function expandCollapseAll() {
   });
 
   // Update button text
-  button.textContent = anyOpen ? '▾ all' : '▸ all';
+  button.textContent = anyOpen ? '▾ All' : '▸ All';
 }
 
 // Show/hide scroll button after scrolling

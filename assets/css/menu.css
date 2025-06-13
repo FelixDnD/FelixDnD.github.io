@@ -33,7 +33,6 @@
 }
 
 .site-header input[type="text"] {
-  font-size: 1rem;
   outline: none;
   min-width: 100px;
   max-width: 120px;
