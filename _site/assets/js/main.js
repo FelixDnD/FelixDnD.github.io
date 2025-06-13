@@ -9,12 +9,12 @@ function openSidebar(id) {
 closeSidebars();
 document.getElementById(id).classList.add("open");
 document.getElementById("overlay").classList.add("show");
-document.getElementById("menu").classList.remove("open");
 }
 
 function closeSidebars() {
 document.querySelectorAll('.sidebar').forEach(el => el.classList.remove("open"));
 document.getElementById("overlay").classList.remove("show");
+document.getElementById("menu").classList.remove("open");
 document.getElementById("menuButton").style.display = "inline-block";
 }
 
