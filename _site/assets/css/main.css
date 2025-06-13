@@ -4,6 +4,7 @@ html, body {
   min-height: 100%;
   font-family: "et-book", serif;;
   font-size: 100%;
+  letter-spacing: 0.01em;
   background-color: var(--background-color);
   color: var(--text-color);
   -webkit-text-size-adjust: 100%;
