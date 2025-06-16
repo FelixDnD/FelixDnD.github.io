@@ -17,7 +17,7 @@
 <tr>
 <th></th>
 <th></th>
-<th>Mod</th>x
+<th>Mod</th>
 <th>Save</th>
 </tr>
 </thead>

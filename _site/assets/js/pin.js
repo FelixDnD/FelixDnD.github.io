@@ -17,7 +17,7 @@ function togglePin(id) {
     pinned.push(id);
   }
   savePinned(pinned);
-  renderPins(); // ← This fully re-renders and re-attaches listeners
+  renderPins();
 }
 
 function attachPinListeners() {
@@ -25,7 +25,7 @@ function attachPinListeners() {
     button.onclick = () => {
       const li = button.closest('li');
       const id = li.dataset.id;
-      if (!id) return; // Safety check
+      if (!id) return;
       togglePin(id);
     };
   });
@@ -51,14 +51,6 @@ function renderPins() {
       button.style.color = isPinned ? '#000' : '';
     }
 
-    if (details) {
-      if (isPinned) {
-        details.setAttribute('open', '');
-      } else {
-        details.removeAttribute('open');
-      }
-    }
-
     if (isPinned) {
       pinnedItems.push(li);
     } else {
@@ -66,12 +58,21 @@ function renderPins() {
     }
   });
 
+  // Sort pinned alphabetically by text content
+  pinnedItems.sort((a, b) => {
+    const textA = a.textContent.trim().toLowerCase();
+    const textB = b.textContent.trim().toLowerCase();
+    return textA.localeCompare(textB);
+  });
+
+  // Sort unpinned by original order
   unpinnedItems.sort((a, b) => {
     const idA = a.dataset.id;
     const idB = b.dataset.id;
     return originalOrder[idA] - originalOrder[idB];
   });
 
+  // Re-render the list
   list.innerHTML = '';
   [...pinnedItems, ...unpinnedItems].forEach(item => list.appendChild(item));
 
@@ -79,16 +80,12 @@ function renderPins() {
 
   // Show or hide the "Unpin All" button
   const unpinButton = document.getElementById('unpinAllButton');
-  if (pinned.length > 0) {
-    unpinButton.style.display = 'block';
-  } else {
-    unpinButton.style.display = 'none';
-  }
+  unpinButton.style.display = pinned.length > 0 ? 'block' : 'none';
 }
 
 function unpinAll() {
-  savePinned([]); // Clear all pinned items
-  renderPins();   // Refresh list
+  savePinned([]);
+  renderPins();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
