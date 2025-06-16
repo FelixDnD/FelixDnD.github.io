@@ -1,0 +1,36 @@
+.stats {
+  display: flex;
+  gap: 2rem;
+}
+
+.stats table {
+  border-collapse: collapse;
+}
+
+.stats th,
+.stats td {
+  padding: 0.2rem;
+  text-align: center;
+}
+
+summary.heading-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+}
+
+div.heading-wrap {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+summary.heading-wrap h3 {
+  margin: 0;
+  margin-right: 1em;
+}
+
+summary.heading-wrap p {
+  margin: 0;
+}

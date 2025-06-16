@@ -6,11 +6,13 @@
 <div class="sidebar" id="sidebarNPCs"><div class="sidebar-content">{% include navNPCs.html %}</div></div>
 <div class="sidebar" id="sidebarSessions"><div class="sidebar-content">{% include navSessions.html %}</div></div>
 <div class="sidebar" id="sidebarPCs"><div class="sidebar-content">{% include navPCs.html %}</div></div>
+<div class="sidebar" id="sidebarMechanics"><div class="sidebar-content">{% include navMechanics.html %}</div></div>
 
 <div class="overlay" id="overlay" onclick="closeSidebars()"></div>
 
 <!-- Radial Menu -->
 <div class="menu" id="menu">
+<button class="menu-item" onclick="openSidebar('sidebarMechanics')">Mechanics</button>
 <button class="menu-item" onclick="openSidebar('sidebarSessions')">Sessions</button>
 <button class="menu-item" onclick="openSidebar('sidebarPCs')">PCs</button>
 <button class="menu-item" onclick="openSidebar('sidebarNPCs')">NPCs</button>

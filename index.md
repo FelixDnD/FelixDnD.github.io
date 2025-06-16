@@ -7,11 +7,16 @@ Hier könnte Ihre Werbung stehen.
 
 * * *
 
+### Gruppen-ToDo:
+- Wir brauchen einen Gruppennamen!
+
+* * *
+
 ### Erklärung Listen:
 
 <ul>
-  <li>Normal item</li>
-  <li><a href="#">Link item</a></li>
+  <li><strong>Normal item.</strong></li>
+  <li><a href="#">Link item.</a></li>
   <li>
     <details>
       <summary>Expandable item.</summary>
@@ -24,6 +29,6 @@ Hier könnte Ihre Werbung stehen.
 
 ### Bugfixing
 
-Sollte irgendetwas nicht funktionieren, bitte Screenshot machen und mir schicken!
+- Sollte irgendetwas nicht funktionieren, bitte Screenshot machen und mir schicken!
 
 * * *
