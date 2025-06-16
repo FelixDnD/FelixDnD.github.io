@@ -19,11 +19,20 @@
     renderPins();
   }
 
+  function attachPinListeners() {
+  document.querySelectorAll('#item-list button.menu-item').forEach(button => {
+    button.onclick = () => {
+      const li = button.closest('li');
+      const id = li.dataset.id;
+      togglePin(id);
+    };
+  });
+}
+
 function renderPins() {
   const pinned = getPinned();
   const list = document.querySelector('#item-list');
   
-  // Separate pinned and unpinned items
   const pinnedItems = [];
   const unpinnedItems = [];
 
@@ -54,13 +63,15 @@ function renderPins() {
     }
   });
 
-  // Clear the list and append pinned items first, then unpinned
   list.innerHTML = '';
   pinnedItems.forEach(item => list.appendChild(item));
   unpinnedItems.forEach(item => list.appendChild(item));
+
+  // Re-attach event listeners after reordering
+  attachPinListeners();
 }
 
-
-
-
-  document.addEventListener('DOMContentLoaded', renderPins);
+document.addEventListener('DOMContentLoaded', () => {
+  renderPins();
+  attachPinListeners();
+});
