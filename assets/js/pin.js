@@ -21,23 +21,45 @@
 
 function renderPins() {
   const pinned = getPinned();
-  document.querySelectorAll('#item-list li').forEach(li => {
+  const list = document.querySelector('#item-list');
+  
+  // Separate pinned and unpinned items
+  const pinnedItems = [];
+  const unpinnedItems = [];
+
+  list.querySelectorAll('li').forEach(li => {
     const id = li.dataset.id;
     const button = li.querySelector('button.menu-item');
     const details = li.querySelector('details');
 
+    const isPinned = pinned.includes(id);
+
     if (button) {
-      const isPinned = pinned.includes(id);
       button.style.backgroundColor = isPinned ? '#ffd700' : '';
       button.style.color = isPinned ? '#000' : '';
-      if (isPinned && details) {
+    }
+
+    if (details) {
+      if (isPinned) {
         details.setAttribute('open', '');
-      } else if (details) {
+      } else {
         details.removeAttribute('open');
       }
     }
+
+    if (isPinned) {
+      pinnedItems.push(li);
+    } else {
+      unpinnedItems.push(li);
+    }
   });
+
+  // Clear the list and append pinned items first, then unpinned
+  list.innerHTML = '';
+  pinnedItems.forEach(item => list.appendChild(item));
+  unpinnedItems.forEach(item => list.appendChild(item));
 }
+
 
 
 
