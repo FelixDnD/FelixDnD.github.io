@@ -1,6 +1,7 @@
 .menu-button,
 .menu-item,
 .scroll-top-button,
+.unpin-all-button,
 .expand-collapse-button,
 .site-header input[type="text"] {
   font-family: inherit;
@@ -26,6 +27,7 @@
 
 .menu-button,
 .menu-item,
+.unpin-all-button
 .scroll-top-button {
   flex-shrink: 0;
 }
@@ -41,12 +43,29 @@
   opacity: 0.6;
 }
 
-.scroll-top-button {
+.conditional-menu {
   position: fixed;
+  right: 10px;
   bottom: 70px;
-  right: 15px;
-  display: none;
   z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.conditional-menu.single-button {
+  bottom: 20px;
+}
+
+.conditional-menu.double-button {
+  bottom: 80px; /* Push it up so both buttons are visible */
+}
+
+.scroll-top-button,
+.unpin-all-button {
+  display: none;
+  width: auto;            /* Ensures natural width */
 }
 
 .menu-button {

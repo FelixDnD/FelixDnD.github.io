@@ -45,6 +45,15 @@ function updateButtonText() {
   button.textContent = anyOpen ? '▸ All' : '▾ All';
 }
 
+function updateScrollTopButtonVisibility() {
+  const scrollTopButton = document.getElementById("scrollTopButton");
+  if (window.scrollY > window.innerHeight * 2) {
+    scrollTopButton.style.display = "inline-block";
+  } else {
+    scrollTopButton.style.display = "none";
+  }
+}
+
 // Attach toggle listeners once on page load
 document.addEventListener('DOMContentLoaded', () => {
   const allDetails = document.querySelectorAll('details');
@@ -53,16 +62,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// Call on scroll
+window.addEventListener("scroll", updateScrollTopButtonVisibility);
 
-// Show/hide scroll button after scrolling
-window.addEventListener("scroll", function () {
-const scrollTopButton = document.getElementById("scrollTopButton");
-if (window.scrollY > window.innerHeight * 2) {
-    scrollTopButton.style.display = "inline-block";
-} else {
-    scrollTopButton.style.display = "none";
-}
-})
+// Also call on page load
+document.addEventListener("DOMContentLoaded", updateScrollTopButtonVisibility);
+
 
 // List detection
 document.querySelectorAll("ul > li").forEach(li => {
