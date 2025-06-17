@@ -2,13 +2,14 @@
 ---
 
 <ul id="item-list">
-<li data-id="Ape"><details class="stat-block">
+<li data-id="Ape">
+<details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Ape">Ape</h3>
-<p>Medium, <strong>CR</strong> 1/2 </p>
-</div>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Ape">Ape</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 1/2</span></p>
 <button class="menu-item" onclick="togglePin('Ape')">pin</button>
+</div>
 </summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 19 (3d8 + 6), <strong>Speed</strong> 30 ft., Climb 30 ft.</p>
 <div class="stats">
@@ -83,11 +84,12 @@
 
 <li data-id="Badger"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Badger">Badger</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Badger">Badger</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Badger')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Badger')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 11, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 5 (1d4 + 3), <strong>Speed</strong> 20 ft., Burrow 5 ft.</p>
 <div class="stats">
 <table>
@@ -159,11 +161,12 @@
 
 <li data-id="Bat"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Bat">Bat</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Bat">Bat</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Bat')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Bat')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 1 (1d4 − 1), <strong>Speed</strong> 5 ft., Fly 30 ft.</p>
 <div class="stats">
 <table>
@@ -235,11 +238,12 @@
 
 <li data-id="BlackBear"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="BlackBear">Black Bear</h3>
-<p>Medium, <strong>CR</strong> 1/2 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="BlackBear">Black Bear</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 1/2 </span></p>
+<button class="menu-item" onclick="togglePin('BlackBear')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('BlackBear')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 11, <strong>Initiative</strong> +1 (11), <strong>HP</strong> 19 (3d8 + 6), <strong>Speed</strong> 30 ft., Climb 30 ft., Swim 30 ft.</p>
 <div class="stats">
 <table>
@@ -312,11 +316,12 @@
 
 <li data-id="Boar"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Boar">Boar</h3>
-<p>Medium, <strong>CR</strong> 1/4 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Boar">Boar</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 1/4 </span></p>
+<button class="menu-item" onclick="togglePin('Boar')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Boar')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 11, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 13 (2d8 + 4), <strong>Speed</strong> 40 ft.</p>
 <div class="stats">
 <table>
@@ -390,11 +395,12 @@
 
 <li data-id="BrownBear"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="BrownBear">Brown Bear</h3>
-<p>Large, <strong>CR</strong> 1 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="BrownBear">Brown Bear</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1 </span></p>
+<button class="menu-item" onclick="togglePin('BrownBear')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('BrownBear')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 11, <strong>Initiative</strong> +1 (11), <strong>HP</strong> 22 (3d10 + 6), <strong>Speed</strong> 40 ft., Climb 30 ft.</p>
 <div class="stats">
 <table>
@@ -468,11 +474,12 @@
 
 <li data-id="Camel"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Camel">Camel</h3>
-<p>Large, <strong>CR</strong> 1/8 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Camel">Camel</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1/8 </span></p>
+<button class="menu-item" onclick="togglePin('Camel')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Camel')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 10, <strong>Initiative</strong> −1 (9), <strong>HP</strong> 17 (2d10 + 6), <strong>Speed</strong> 50 ft.</p>
 <div class="stats">
 <table>
@@ -544,11 +551,12 @@
 
 <li data-id="Cat"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Cat">Cat</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Cat">Cat</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Cat')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Cat')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 2 (1d4), <strong>Speed</strong> 40 ft., Climb 40 ft.</p>
 <div class="stats">
 <table>
@@ -624,11 +632,12 @@
 
 <li data-id="ConstrictorSnake"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="ConstrictorSnake">Constrictor Snake</h3>
-<p>Large, <strong>CR</strong> 1/4 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="ConstrictorSnake">Constrictor Snake</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1/4 </span></p>
+<button class="menu-item" onclick="togglePin('ConstrictorSnake')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('ConstrictorSnake')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 13, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 13 (2d10 + 2), <strong>Speed</strong> 30 ft., Swim 30 ft.</p>
 <div class="stats">
 <table>
@@ -701,11 +710,12 @@
 
 <li data-id="Crab"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Crab">Crab</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Crab">Crab</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Crab')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Crab')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 11, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 3 (1d4 + 1), <strong>Speed</strong> 20 ft., Swim 20 ft.</p>
 <div class="stats">
 <table>
@@ -779,11 +789,12 @@
 
 <li data-id="Crocodile"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Crocodile">Crocodile</h3>
-<p>Large, <strong>CR</strong> 1/2 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Crocodile">Crocodile</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1/2 </span></p>
+<button class="menu-item" onclick="togglePin('Crocodile')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Crocodile')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 13 (2d10 + 2), <strong>Speed</strong> 20 ft., Swim 30 ft.</p>
 <div class="stats">
 <table>
@@ -857,11 +868,12 @@
 
 <li data-id="DireWolf"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="DireWolf">Dire Wolf</h3>
-<p>Large, <strong>CR</strong> 1 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="DireWolf">Dire Wolf</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1 </span></p>
+<button class="menu-item" onclick="togglePin('DireWolf')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('DireWolf')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 14, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 22 (3d10 + 6), <strong>Speed</strong> 50 ft.</p>
 <div class="stats">
 <table>
@@ -935,11 +947,12 @@
 
 <li data-id="DraftHorse"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="DraftHorse">Draft Horse</h3>
-<p>Large, <strong>CR</strong> 1/4 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="DraftHorse">Draft Horse</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1/4 </span></p>
+<button class="menu-item" onclick="togglePin('DraftHorse')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('DraftHorse')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 10, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 15 (2d10 + 4), <strong>Speed</strong> 40 ft.</p>
 <div class="stats">
 <table>
@@ -1011,11 +1024,12 @@
 
 <li data-id="Elephant"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Elephant">Elephant</h3>
-<p>Huge, <strong>CR</strong> 4 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Elephant">Elephant</h3></span>
+<div class="inner-wrap">
+<p>Huge, <span class="no-break"><strong>CR</strong> 4 </span></p>
+<button class="menu-item" onclick="togglePin('Elephant')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Elephant')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> −1 (9), <strong>HP</strong> 76 (8d12 + 24), <strong>Speed</strong> 40 ft.</p>
 <div class="stats">
 <table>
@@ -1090,11 +1104,12 @@
 
 <li data-id="Elk"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Elk">Elk</h3>
-<p>Large, <strong>CR</strong> 1/4 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Elk">Elk</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1/4 </span></p>
+<button class="menu-item" onclick="togglePin('Elk')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Elk')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 10, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 11 (2d10), <strong>Speed</strong> 50 ft.</p>
 <div class="stats">
 <table>
@@ -1166,11 +1181,12 @@
 
 <li data-id="Frog"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Frog">Frog</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Frog">Frog</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Frog')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Frog')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 11, <strong>Initiative</strong> +1 (11), <strong>HP</strong> 1 (1d4 − 1), <strong>Speed</strong> 20 ft., Swim 20 ft.</p>
 <div class="stats">
 <table>
@@ -1245,11 +1261,12 @@
 
 <li data-id="GiantBadger"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="GiantBadger">Giant Badger</h3>
-<p>Medium, <strong>CR</strong> 1/4 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="GiantBadger">Giant Badger</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 1/4 </span></p>
+<button class="menu-item" onclick="togglePin('GiantBadger')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('GiantBadger')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 13, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 15 (2d8 + 6), <strong>Speed</strong> 30 ft., Burrow 10 ft.</p>
 <div class="stats">
 <table>
@@ -1323,11 +1340,12 @@
 
 <li data-id="GiantCrab"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="GiantCrab">Giant Crab</h3>
-<p>Medium, <strong>CR</strong> 1/8 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="GiantCrab">Giant Crab</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 1/8 </span></p>
+<button class="menu-item" onclick="togglePin('GiantCrab')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('GiantCrab')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 15, <strong>Initiative</strong> +1 (11), <strong>HP</strong> 13 (3d8), <strong>Speed</strong> 30 ft., Swim 30 ft.</p>
 <div class="stats">
 <table>
@@ -1401,11 +1419,12 @@
 
 <li data-id="GiantGoat"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="GiantGoat">Giant Goat</h3>
-<p>Large, <strong>CR</strong> 1/2 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="GiantGoat">Giant Goat</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1/2 </span></p>
+<button class="menu-item" onclick="togglePin('GiantGoat')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('GiantGoat')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 11, <strong>Initiative</strong> +1 (11), <strong>HP</strong> 19 (3d10 + 3), <strong>Speed</strong> 40 ft., Climb 30 ft.</p>
 <div class="stats">
 <table>
@@ -1477,11 +1496,12 @@
 
 <li data-id="GiantSeahorse"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="GiantSeahorse">Giant Seahorse</h3>
-<p>Large, <strong>CR</strong> 1/2 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="GiantSeahorse">Giant Seahorse</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1/2 </span></p>
+<button class="menu-item" onclick="togglePin('GiantSeahorse')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('GiantSeahorse')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 14, <strong>Initiative</strong> +1 (11), <strong>HP</strong> 16 (3d10), <strong>Speed</strong> 5 ft., Swim 40 ft.</p>
 <div class="stats">
 <table>
@@ -1557,11 +1577,12 @@
 
 <li data-id="GiantSpider"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="GiantSpider">Giant Spider</h3>
-<p>Large, <strong>CR</strong> 1 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="GiantSpider">Giant Spider</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1 </span></p>
+<button class="menu-item" onclick="togglePin('GiantSpider')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('GiantSpider')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 14, <strong>Initiative</strong> +3 (13), <strong>HP</strong> 26 (4d10 + 4), <strong>Speed</strong> 30 ft., Climb 30 ft.</p>
 <div class="stats">
 <table>
@@ -1637,11 +1658,12 @@
 
 <li data-id="GiantWeasel"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="GiantWeasel">Giant Weasel</h3>
-<p>Medium, <strong>CR</strong> 1/8 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="GiantWeasel">Giant Weasel</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 1/8 </span></p>
+<button class="menu-item" onclick="togglePin('GiantWeasel')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('GiantWeasel')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 13, <strong>Initiative</strong> +3 (13), <strong>HP</strong> 9 (2d8), <strong>Speed</strong> 40 ft., Climb 30 ft.</p>
 <div class="stats">
 <table>
@@ -1713,11 +1735,12 @@
 
 <li data-id="Goat"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Goat">Goat</h3>
-<p>Medium, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Goat">Goat</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Goat')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Goat')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 10, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 4 (1d8), <strong>Speed</strong> 40 ft., Climb 30 ft.</p>
 <div class="stats">
 <table>
@@ -1789,11 +1812,12 @@
 
 <li data-id="Hawk"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Hawk">Hawk</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Hawk">Hawk</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Hawk')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Hawk')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 13, <strong>Initiative</strong> +3 (13), <strong>HP</strong> 1 (1d4 − 1), <strong>Speed</strong> 10 ft., Fly 60 ft.</p>
 <div class="stats">
 <table>
@@ -1865,11 +1889,12 @@
 
 <li data-id="Lion"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Lion">Lion</h3>
-<p>Large, <strong>CR</strong> 1 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Lion">Lion</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1 </span></p>
+<button class="menu-item" onclick="togglePin('Lion')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Lion')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 22 (4d10), <strong>Speed</strong> 50 ft.</p>
 <div class="stats">
 <table>
@@ -1946,11 +1971,12 @@
 
 <li data-id="Lizard"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Lizard">Lizard</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Lizard">Lizard</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Lizard')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Lizard')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 10, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 2 (1d4), <strong>Speed</strong> 20 ft., Climb 20 ft.</p>
 <div class="stats">
 <table>
@@ -2024,11 +2050,12 @@
 
 <li data-id="Mastiff"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Mastiff">Mastiff</h3>
-<p>Medium, <strong>CR</strong> 1/8 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Mastiff">Mastiff</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 1/8 </span></p>
+<button class="menu-item" onclick="togglePin('Mastiff')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Mastiff')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 5 (1d8 + 1), <strong>Speed</strong> 40 ft.</p>
 <div class="stats">
 <table>
@@ -2100,11 +2127,12 @@
 
 <li data-id="Mule"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Mule">Mule</h3>
-<p>Medium, <strong>CR</strong> 1/8 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Mule">Mule</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 1/8 </span></p>
+<button class="menu-item" onclick="togglePin('Mule')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Mule')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 10, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 11 (2d8 + 2), <strong>Speed</strong> 40 ft.</p>
 <div class="stats">
 <table>
@@ -2178,11 +2206,12 @@
 
 <li data-id="Octopus"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Octopus">Octopus</h3>
-<p>Small, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Octopus">Octopus</h3></span>
+<div class="inner-wrap">
+<p>Small, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Octopus')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Octopus')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 3 (1d6), <strong>Speed</strong> 5 ft., Swim 30 ft.</p>
 <div class="stats">
 <table>
@@ -2259,11 +2288,12 @@
 
 <li data-id="Owl"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Owl">Owl</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Owl">Owl</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Owl')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Owl')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 11, <strong>Initiative</strong> +1 (11), <strong>HP</strong> 1 (1d4 − 1), <strong>Speed</strong> 5 ft., Fly 60 ft.</p>
 <div class="stats">
 <table>
@@ -2337,11 +2367,12 @@
 
 <li data-id="Panther"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Panther">Panther</h3>
-<p>Medium, <strong>CR</strong> 1/4 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Panther">Panther</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 1/4 </span></p>
+<button class="menu-item" onclick="togglePin('Panther')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Panther')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 13, <strong>Initiative</strong> +3 (13), <strong>HP</strong> 13 (3d8), <strong>Speed</strong> 50 ft., Climb 40 ft.</p>
 <div class="stats">
 <table>
@@ -2415,11 +2446,12 @@
 
 <li data-id="Pony"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Pony">Pony</h3>
-<p>Medium, <strong>CR</strong> 1/8 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Pony">Pony</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 1/8 </span></p>
+<button class="menu-item" onclick="togglePin('Pony')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Pony')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 10, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 11 (2d8 + 2), <strong>Speed</strong> 40 ft.</p>
 <div class="stats">
 <table>
@@ -2491,11 +2523,12 @@
 
 <li data-id="Rat"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Rat">Rat</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Rat">Rat</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Rat')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Rat')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 10, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 1 (1d4 − 1), <strong>Speed</strong> 20 ft., Climb 20 ft.</p>
 <div class="stats">
 <table>
@@ -2569,11 +2602,12 @@
 
 <li data-id="Raven"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Raven">Raven</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Raven">Raven</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Raven')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Raven')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 2 (1d4), <strong>Speed</strong> 10 ft., Fly 50 ft.</p>
 <div class="stats">
 <table>
@@ -2647,11 +2681,12 @@
 
 <li data-id="ReefShark"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="ReefShark">Reef Shark</h3>
-<p>Medium, <strong>CR</strong> 1/2 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="ReefShark">Reef Shark</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 1/2 </span></p>
+<button class="menu-item" onclick="togglePin('ReefShark')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('ReefShark')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 22 (4d8 + 4), <strong>Speed</strong> 5 ft., Swim 30 ft.</p>
 <div class="stats">
 <table>
@@ -2726,11 +2761,12 @@
 
 <li data-id="RidingHorse"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="RidingHorse">Riding Horse</h3>
-<p>Large, <strong>CR</strong> 1/4 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="RidingHorse">Riding Horse</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1/4 </span></p>
+<button class="menu-item" onclick="togglePin('RidingHorse')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('RidingHorse')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 11, <strong>Initiative</strong> +1 (11), <strong>HP</strong> 13 (2d10 + 2), <strong>Speed</strong> 60 ft.</p>
 <div class="stats">
 <table>
@@ -2802,11 +2838,12 @@
 
 <li data-id="Scorpion"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Scorpion">Scorpion</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Scorpion">Scorpion</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Scorpion')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Scorpion')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 11, <strong>Initiative</strong> +0 (10), <strong>HP</strong> 1 (1d4 − 1), <strong>Speed</strong> 10 ft.</p>
 <div class="stats">
 <table>
@@ -2878,11 +2915,12 @@
 
 <li data-id="Spider"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Spider">Spider</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Spider">Spider</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Spider')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Spider')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 1 (1d4 − 1), <strong>Speed</strong> 20 ft., Climb 20 ft.</p>
 <div class="stats">
 <table>
@@ -2957,11 +2995,12 @@
 
 <li data-id="Tiger"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Tiger">Tiger</h3>
-<p>Large, <strong>CR</strong> 1 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Tiger">Tiger</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1 </span></p>
+<button class="menu-item" onclick="togglePin('Tiger')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Tiger')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 13, <strong>Initiative</strong> +3 (13), <strong>HP</strong> 30 (4d10 + 8), <strong>Speed</strong> 40 ft.</p>
 <div class="stats">
 <table>
@@ -3035,11 +3074,12 @@
 
 <li data-id="VenomousSnake"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="VenomousSnake">Venomous Snake</h3>
-<p>Tiny, <strong>CR</strong> 1/8 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="VenomousSnake">Venomous Snake</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 1/8 </span></p>
+<button class="menu-item" onclick="togglePin('VenomousSnake')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('VenomousSnake')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 5 (2d4), <strong>Speed</strong> 30 ft., Swim 30 ft.</p>
 <div class="stats">
 <table>
@@ -3111,11 +3151,12 @@
 
 <li data-id="Warhorse"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Warhorse">Warhorse</h3>
-<p>Large, <strong>CR</strong> 1/2 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Warhorse">Warhorse</h3></span>
+<div class="inner-wrap">
+<p>Large, <span class="no-break"><strong>CR</strong> 1/2 </span></p>
+<button class="menu-item" onclick="togglePin('Warhorse')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Warhorse')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 11, <strong>Initiative</strong> +1 (11), <strong>HP</strong> 19 (3d10 + 3), <strong>Speed</strong> 60 ft.</p>
 <div class="stats">
 <table>
@@ -3187,11 +3228,12 @@
 
 <li data-id="Weasel"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Weasel">Weasel</h3>
-<p>Tiny, <strong>CR</strong> 0 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Weasel">Weasel</h3></span>
+<div class="inner-wrap">
+<p>Tiny, <span class="no-break"><strong>CR</strong> 0 </span></p>
+<button class="menu-item" onclick="togglePin('Weasel')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Weasel')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 13, <strong>Initiative</strong> +3 (13), <strong>HP</strong> 1 (1d4 − 1), <strong>Speed</strong> 30 ft., Climb 30 ft.</p>
 <div class="stats">
 <table>
@@ -3263,11 +3305,12 @@
 
 <li data-id="Wolf"><details class="stat-block">
 <summary class="heading-wrap">
-<div class="heading-wrap">
-<h3 class="compendium-hr heading-anchor" id="Wolf">Wolf</h3>
-<p>Medium, <strong>CR</strong> 1/4 </p>
+<span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Wolf">Wolf</h3></span>
+<div class="inner-wrap">
+<p>Medium, <span class="no-break"><strong>CR</strong> 1/4 </span></p>
+<button class="menu-item" onclick="togglePin('Wolf')">pin</button>
 </div>
-<button class="menu-item" onclick="togglePin('Wolf')">pin</button></summary>
+</summary>
 <p><strong>AC</strong> 12, <strong>Initiative</strong> +2 (12), <strong>HP</strong> 11 (2d8 + 2), <strong>Speed</strong> 40 ft.</p>
 <div class="stats">
 <table>

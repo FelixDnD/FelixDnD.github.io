@@ -129,10 +129,11 @@ ul li {
 /* Remove native bullets and triangle marker from <summary> */
 ul summary {
   list-style: none;
-  display: inline-flex;
+  display: inline-sflex;
   align-items: center;
   cursor: pointer;
 }
+
 ul summary::-webkit-details-marker {
   display: none;
 }
@@ -157,6 +158,7 @@ ul li.is-link::before {
 ul li.is-expand::before {
   content: "";
 } /* prevent double bullets */
+
 ul li.is-expand summary::before {
   content: "▸";
   display: inline-block;
@@ -170,3 +172,4 @@ ul li.is-expand summary::before {
 ul li.is-expand details[open] summary::before {
   content: "▾";
 }
+
