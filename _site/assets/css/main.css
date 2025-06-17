@@ -117,13 +117,14 @@ hr {
 
 ul {
   list-style: none;
-  padding-left: 10px;
+  padding: 0px;
 }
 
 ul li {
   position: relative;
-  padding-left: 1.5em;
-  margin-bottom: 0.5em;
+  padding-left: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 /* Remove native bullets and triangle marker from <summary> */
@@ -141,16 +142,20 @@ ul summary::-webkit-details-marker {
 /* Default bullet for normal items */
 ul li.is-normal::before {
   content: "•";
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   position: absolute;
-  left: 2px;
+  left: 8px;
   top: 0;
 }
 
 /* Custom bullet for links */
 ul li.is-link::before {
   content: "\2192\FE0E";
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   position: absolute;
-  left: -2px;
+  left: 5px;
   top: 0;
 }
 
@@ -172,4 +177,3 @@ ul li.is-expand summary::before {
 ul li.is-expand details[open] summary::before {
   content: "▾";
 }
-

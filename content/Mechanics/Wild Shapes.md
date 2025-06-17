@@ -1,7 +1,7 @@
 ---
 ---
 
-<ul id="item-list">
+<ul class="item-list" id="wildshape-list">
 <li data-id="Ape">
 <details class="stat-block">
 <summary class="heading-wrap">
@@ -80,7 +80,7 @@
 <p><strong><em>Fist.</em></strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Bludgeoning damage.</p>
 <p><strong><em>Rock (Recharge 6).</em></strong> <em>Ranged Attack Roll:</em> +5, range 25/50 ft. <em>Hit:</em> 10 (2d6 + 3) Bludgeoning damage.</p>
 </details>
-</li><hr>
+</li>
 
 <li data-id="Badger"><details class="stat-block">
 <summary class="heading-wrap">
@@ -157,8 +157,7 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +2, reach 5 ft. <em>Hit:</em> 1 Piercing damage.</p>
 </details>
-</li><hr>
-
+</li>
 <li data-id="Bat"><details class="stat-block">
 <summary class="heading-wrap">
 <span class="title-wrap"><h3 class="compendium-hr heading-anchor" id="Bat">Bat</h3></span>
@@ -234,7 +233,7 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 1 Piercing damage.</p>
 </details>
-</li><hr>
+</li>
 
 <li data-id="BlackBear"><details class="stat-block">
 <summary class="heading-wrap">
@@ -312,7 +311,8 @@
 <p><strong><em>Multiattack.</em></strong> The bear makes two Rend attacks.</p>
 <p><strong><em>Rend.</em></strong> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 5 (1d6 + 2) Slashing damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Boar"><details class="stat-block">
 <summary class="heading-wrap">
@@ -391,7 +391,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Gore.</em></strong> <em>Melee Attack Roll:</em> +3, reach 5 ft. <em>Hit:</em> 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing damage and has the Prone condition.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="BrownBear"><details class="stat-block">
 <summary class="heading-wrap">
@@ -470,7 +471,8 @@
 <p><strong><em>Bite</em>.</strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Piercing damage.</p>
 <p><strong><em>Claw</em>.</strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Camel"><details class="stat-block">
 <summary class="heading-wrap">
@@ -547,7 +549,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 4 (1d4 + 2) Bludgeoning damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Cat"><details class="stat-block">
 <summary class="heading-wrap">
@@ -628,7 +631,8 @@
 </div>
 </div>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="ConstrictorSnake"><details class="stat-block">
 <summary class="heading-wrap">
@@ -706,7 +710,8 @@
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 6 (1d8 + 2) Piercing damage.</p>
 <p><strong><em>Constrict.</em></strong> <em>Strength Saving Throw:</em> DC 12, one Medium or smaller creature the snake can see within 5 feet. <em>Failure:</em> 7 (3d4) Bludgeoning damage, and the target has the Grappled condition (escape DC 12).</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Crab"><details class="stat-block">
 <summary class="heading-wrap">
@@ -785,7 +790,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Claw.</em></strong> <em>Melee Attack Roll:</em> +2, reach 5 ft. <em>Hit:</em> 1 Bludgeoning damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Crocodile"><details class="stat-block">
 <summary class="heading-wrap">
@@ -864,7 +870,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="DireWolf"><details class="stat-block">
 <summary class="heading-wrap">
@@ -943,7 +950,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 8 (1d10 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="DraftHorse"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1020,7 +1028,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Hooves.</em></strong> <em>Melee Attack Roll:</em> +6, reach 5 ft. <em>Hit:</em> 6 (1d4 + 4) Bludgeoning damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Elephant"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1100,7 +1109,8 @@
 <p class="monster-header">Bonus Actions</p>
 <p><strong><em>Trample.</em></strong> <em>Dexterity Saving Throw:</em> DC 16, one creature within 5 feet that has the Prone condition. <em>Failure:</em> 17 (2d10 + 6) Bludgeoning damage. <em>Success:</em> Half damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Elk"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1177,7 +1187,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Ram.</em></strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Frog"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1257,7 +1268,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +3, reach 5 ft. <em>Hit:</em> 1 Piercing damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="GiantBadger"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1336,7 +1348,8 @@
 </div>
 </div>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="GiantCrab"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1415,7 +1428,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Claw.</em></strong> <em>Melee Attack Roll:</em> +3, reach 5 ft. <em>Hit:</em> 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="GiantGoat"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1492,7 +1506,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Ram.</em></strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the goat moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="GiantSeahorse"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1573,7 +1588,8 @@
 <p class="monster-header">Bonus Actions</p>
 <p><strong><em>Bubble Dash.</em></strong> While underwater, the seahorse moves up to half its Swim Speed without provoking Opportunity Attacks.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="GiantSpider"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1654,7 +1670,8 @@
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage.</p>
 <p><strong><em>Web (Recharge 5–6).</em></strong> <em>Dexterity Saving Throw:</em> DC 13, one creature the spider can see within 60 feet. <em>Failure:</em> The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="GiantWeasel"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1731,7 +1748,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 5 (1d4 + 3) Piercing damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Goat"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1808,7 +1826,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Ram.</em></strong> <em>Melee Attack Roll:</em> +2, reach 5 ft. <em>Hit:</em> 1 Bludgeoning damage, or 2 (1d4) Bludgeoning damage if the goat moved 20+ feet straight toward the target immediately before the hit.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Hawk"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1885,7 +1904,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Talons.</em></strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 1 Slashing damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Lion"><details class="stat-block">
 <summary class="heading-wrap">
@@ -1967,7 +1987,8 @@
 <p><strong><em>Rend.</em></strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Slashing damage.</p>
 <p><strong><em>Roar.</em></strong> <em>Wisdom Saving Throw:</em> DC 11, one creature within 15 feet. <em>Failure:</em> The target has the Frightened condition until the start of the lion’s next turn.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Lizard"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2046,7 +2067,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +2, reach 5 ft. <em>Hit:</em> 1 Piercing damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Mastiff"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2123,7 +2145,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +3, reach 5 ft. <em>Hit:</em> 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Mule"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2202,7 +2225,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Hooves.</em></strong> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 4 (1d4 + 2) Bludgeoning damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Octopus"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2284,7 +2308,8 @@
 <p class="monster-header">Reactions</p>
 <p><strong><em>Ink Cloud (1/Day).</em></strong> <em>Trigger:</em> A creature ends its turn within 5 feet of the octopus while underwater. <em>Response:</em> The octopus releases ink that fills a 5-foot Cube centered on itself, and the octopus moves up to its Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses the ink.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Owl"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2363,7 +2388,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Talons.</em></strong> <em>Melee Attack Roll:</em> +3, reach 5 ft. <em>Hit:</em> 1 Slashing damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Panther"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2442,7 +2468,8 @@
 <p class="monster-header">Bonus Actions</p>
 <p><strong><em>Nimble Escape.</em></strong> The panther takes the Disengage or Hide action.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Pony"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2519,7 +2546,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Hooves.</em></strong> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 4 (1d4 + 2) Bludgeoning damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Rat"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2598,7 +2626,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +2, reach 5 ft. <em>Hit:</em> 1 Piercing damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Raven"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2677,7 +2706,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Beak.</em></strong> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 1 Piercing damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="ReefShark"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2757,7 +2787,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 7 (2d4 + 2) Piercing damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="RidingHorse"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2834,7 +2865,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Hooves.</em></strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 7 (1d8 + 3) Bludgeoning damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Scorpion"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2911,7 +2943,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Sting.</em></strong> <em>Melee Attack Roll:</em> +2, reach 5 ft. <em>Hit:</em> 1 Piercing damage plus 3 (1d6) Poison damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Spider"><details class="stat-block">
 <summary class="heading-wrap">
@@ -2991,7 +3024,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 1 Piercing damage plus 2 (1d4) Poison damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Tiger"><details class="stat-block">
 <summary class="heading-wrap">
@@ -3070,7 +3104,8 @@
 <p class="monster-header">Bonus Actions</p>
 <p><strong><em>Nimble Escape.</em></strong> The tiger takes the Disengage or Hide action.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="VenomousSnake"><details class="stat-block">
 <summary class="heading-wrap">
@@ -3147,7 +3182,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 4 (1d4 + 2) Piercing damage plus 3 (1d6) Poison damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Warhorse"><details class="stat-block">
 <summary class="heading-wrap">
@@ -3224,7 +3260,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Hooves.</em></strong> <em>Melee Attack Roll:</em> +6, reach 5 ft. <em>Hit:</em> 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Weasel"><details class="stat-block">
 <summary class="heading-wrap">
@@ -3301,7 +3338,8 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +5, reach 5 ft. <em>Hit:</em> 1 Piercing damage.</p>
 </details>
-</li><hr>
+</li>
+
 
 <li data-id="Wolf"><details class="stat-block">
 <summary class="heading-wrap">
@@ -3380,5 +3418,6 @@
 <p class="monster-header">Actions</p>
 <p><strong><em>Bite.</em></strong> <em>Melee Attack Roll:</em> +4, reach 5 ft. <em>Hit:</em> 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.</p>
 </details>
-</li><hr>
+</li>
+
 </ul>

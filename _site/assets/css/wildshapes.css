@@ -48,3 +48,7 @@
 .no-break {
   white-space: nowrap;
 }
+
+ul.item-list li + li {
+  border-top: 1.5px solid var(--border-color);
+}

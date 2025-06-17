@@ -140,14 +140,8 @@
   font-variant-position: normal;
 }
 
-.sidebar ul {
-  list-style-type: none;
-  margin-left: 0;
-  padding: 0;
-}
-
-.sidebar ul li {
-  margin-left: 10px;
+.sidebar ul li + li {
+  border-top: 1.5px solid var(--border-color);
 }
 
 .sidebar a {

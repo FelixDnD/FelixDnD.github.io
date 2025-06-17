@@ -21,7 +21,7 @@ function togglePin(id) {
 }
 
 function attachPinListeners() {
-  document.querySelectorAll('#item-list button.menu-item').forEach(button => {
+  document.querySelectorAll('#wildshape-list button.menu-item').forEach(button => {
     button.onclick = () => {
       const li = button.closest('li');
       const id = li.dataset.id;
@@ -33,7 +33,7 @@ function attachPinListeners() {
 
 function renderPins() {
   const pinned = getPinned();
-  const list = document.querySelector('#item-list');
+  const list = document.querySelector('#wildshape-list');
 
   const pinnedItems = [];
   const unpinnedItems = [];
@@ -47,8 +47,8 @@ function renderPins() {
     const isPinned = pinned.includes(id);
 
     if (button) {
-      button.style.backgroundColor = isPinned ? '#ffd700' : '';
-      button.style.color = isPinned ? '#000' : '';
+      button.style.backgroundColor = isPinned ? '#a00000' : '';
+      button.style.color = isPinned ? '#111111' : '';
     }
 
     if (isPinned) {
@@ -89,7 +89,7 @@ function unpinAll() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const listItems = document.querySelectorAll('#item-list li');
+  const listItems = document.querySelectorAll('#wildshape-list li');
   listItems.forEach((li, index) => {
     const id = li.dataset.id;
     if (id) {
