@@ -1,7 +1,6 @@
 .menu-button,
 .menu-item,
 .scroll-top-button,
-.unpin-all-button,
 .expand-collapse-button,
 .site-header input[type="text"] {
   font-family: inherit;
@@ -27,7 +26,6 @@
 
 .menu-button,
 .menu-item,
-.unpin-all-button
 .scroll-top-button {
   flex-shrink: 0;
 }
@@ -62,8 +60,7 @@
   bottom: 80px; /* Push it up so both buttons are visible */
 }
 
-.scroll-top-button,
-.unpin-all-button {
+.scroll-top-button {
   display: none;
   width: auto;            /* Ensures natural width */
 }
@@ -106,6 +103,7 @@
   bottom: 0;
   right: 0;
   width: 250px;
+  max-width: 60%;
   left: auto;
   display: flex;
   flex-direction: column;
@@ -138,6 +136,20 @@
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-variant-position: normal;
+}
+
+.sidebar hr {
+  margin-bottom: 0px;
+}
+
+.sidebar ul li {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.sidebar ul li.is-link::before {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
 }
 
 .sidebar ul li + li {

@@ -123,8 +123,8 @@ ul {
 ul li {
   position: relative;
   padding-left: 2em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }
 
 /* Remove native bullets and triangle marker from <summary> */
@@ -142,8 +142,8 @@ ul summary::-webkit-details-marker {
 /* Default bullet for normal items */
 ul li.is-normal::before {
   content: "•";
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
   position: absolute;
   left: 8px;
   top: 0;
@@ -152,8 +152,8 @@ ul li.is-normal::before {
 /* Custom bullet for links */
 ul li.is-link::before {
   content: "\2192\FE0E";
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
   position: absolute;
   left: 5px;
   top: 0;

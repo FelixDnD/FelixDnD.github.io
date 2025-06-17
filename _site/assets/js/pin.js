@@ -83,11 +83,6 @@ function renderPins() {
   unpinButton.style.display = pinned.length > 0 ? 'block' : 'none';
 }
 
-function unpinAll() {
-  savePinned([]);
-  renderPins();
-}
-
 document.addEventListener('DOMContentLoaded', () => {
   const listItems = document.querySelectorAll('#wildshape-list li');
   listItems.forEach((li, index) => {

@@ -5,8 +5,29 @@ document.getElementById("menuButton").style.display = "none";
 menu.scrollLeft = menu.scrollWidth;
 }
 
+function handleSiteInteraction(event) {
+  if (document.querySelectorAll(".sidebar.open").length > 0) {
+    return;
+  }
+
+  if (
+    document.getElementById("menu").contains(event.target) ||
+    document.getElementById("menuButton").contains(event.target)
+  ) {
+    return;
+  }
+
+  document.getElementById("menu").classList.remove("open");
+  document.getElementById("menuButton").style.display = "inline-block";
+}
+
 function openSidebar(id) {
-closeSidebars();
+document.querySelectorAll('.sidebar').forEach(el => el.classList.remove("open"));
+document.getElementById("overlay").classList.remove("show");
+document.getElementById("menu").classList.remove("open");
+document.getElementById("conditionalMenu").style.display = "none";
+document.getElementById("menuButton").style.display = "none";
+
 document.getElementById(id).classList.add("open");
 document.getElementById("overlay").classList.add("show");
 }
@@ -16,6 +37,7 @@ document.querySelectorAll('.sidebar').forEach(el => el.classList.remove("open"))
 document.getElementById("overlay").classList.remove("show");
 document.getElementById("menu").classList.remove("open");
 document.getElementById("menuButton").style.display = "inline-block";
+document.getElementById("conditionalMenu").style.display = "flex";
 }
 
 function goHome() {
@@ -38,6 +60,17 @@ function expandCollapseAll() {
   updateButtonText();
 }
 
+function updateExpandCollapseButtonVisibility() {
+  const expandCollapseButton = document.getElementById("expand-collapse-button");
+  const contentDetails = document.querySelectorAll('main.content details');
+
+  if (contentDetails.length > 0) {
+    expandCollapseButton.style.display = "inline-block";
+  } else {
+    expandCollapseButton.style.display = "none";
+  }
+}
+
 function updateButtonText() {
   const allDetails = document.querySelectorAll('details');
   const button = document.getElementById('expand-collapse-button');
@@ -47,27 +80,31 @@ function updateButtonText() {
 
 function updateScrollTopButtonVisibility() {
   const scrollTopButton = document.getElementById("scrollTopButton");
-  if (window.scrollY > window.innerHeight * 2) {
+  if (window.scrollY > window.innerHeight * 0.5) {
     scrollTopButton.style.display = "inline-block";
   } else {
     scrollTopButton.style.display = "none";
   }
 }
 
-// Attach toggle listeners once on page load
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   const allDetails = document.querySelectorAll('details');
   allDetails.forEach(detail => {
     detail.addEventListener('toggle', updateButtonText);
   });
+
+  updateScrollTopButtonVisibility();
+  updateExpandCollapseButtonVisibility();
+
+  // Listen for general interactions
+  document.addEventListener("click", handleSiteInteraction);
+  document.addEventListener("touchstart", handleSiteInteraction);
+  document.addEventListener("keydown", handleSiteInteraction);
+  document.addEventListener("scroll", handleSiteInteraction);
 });
 
 // Call on scroll
 window.addEventListener("scroll", updateScrollTopButtonVisibility);
-
-// Also call on page load
-document.addEventListener("DOMContentLoaded", updateScrollTopButtonVisibility);
-
 
 // List detection
 document.querySelectorAll("ul > li").forEach(li => {
