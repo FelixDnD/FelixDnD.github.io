@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="/assets/css/font.css?v=">
     <link rel="stylesheet" href="/assets/css/main.css?v=">
     <link rel="stylesheet" href="/assets/css/menu.css?v=">
+    <link rel="stylesheet" href="/assets/css/bullets.css?v=">
     <link rel="stylesheet" href="/assets/css/wildshapes.css?v=">
 
   </head>
@@ -32,13 +33,15 @@
     <div class="wrapper">
       <header class="site-header">
           <h1><a href="http://192.168.0.224:4000/">DnD Mini Wiki</a></h1>
-          
-<form action="/search/" method="get">
-  <input type="text" name="query" id="search-box" placeholder="Suchen…">
-</form>
+          <div class="header-menu">
+  <button class="expand-collapse-button" onclick="expandCollapseAll()" id="expand-collapse-button">▾ All</button>
+  <form action="/search/" method="get">
+    <input type="text" name="query" id="search-box" placeholder="Suchen…">
+  </form>
+</div>
 
       </header>
-      
+
       <div class="main-container">
         <main class="content">
           <h1 id="helmswacht">Helmswacht</h1>
@@ -78,12 +81,7 @@
       </div>
     </div>
 
-    <div class="conditional-menu" id="conditionalMenu">
     <button class="scroll-top-button" onclick="scrollToTop()" id="scrollTopButton">Top</button>
-    <button class="expand-collapse-button" onclick="expandCollapseAll()" id="expand-collapse-button">▾ All</button>
-</div>
-
-
 
 <!-- Sidebars -->
 <div class="sidebar" id="sidebarOrte"><div class="sidebar-content"><nav>

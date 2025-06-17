@@ -25,7 +25,7 @@ function openSidebar(id) {
 document.querySelectorAll('.sidebar').forEach(el => el.classList.remove("open"));
 document.getElementById("overlay").classList.remove("show");
 document.getElementById("menu").classList.remove("open");
-document.getElementById("conditionalMenu").style.display = "none";
+document.getElementById("scrollTopButton").style.display = "none";
 document.getElementById("menuButton").style.display = "none";
 
 document.getElementById(id).classList.add("open");
@@ -37,7 +37,7 @@ document.querySelectorAll('.sidebar').forEach(el => el.classList.remove("open"))
 document.getElementById("overlay").classList.remove("show");
 document.getElementById("menu").classList.remove("open");
 document.getElementById("menuButton").style.display = "inline-block";
-document.getElementById("conditionalMenu").style.display = "flex";
+updateScrollTopButtonVisibility();
 }
 
 function goHome() {

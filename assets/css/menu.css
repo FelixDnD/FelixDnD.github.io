@@ -41,40 +41,32 @@
   opacity: 0.6;
 }
 
-.conditional-menu {
-  position: fixed;
-  right: 10px;
-  bottom: 70px;
-  z-index: 1000;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+.header-menu {
+  display: flex; 
+  flex-direction: row; 
+  align-items: flex-end; 
   gap: 8px;
-}
-
-.conditional-menu.single-button {
-  bottom: 20px;
-}
-
-.conditional-menu.double-button {
-  bottom: 80px; /* Push it up so both buttons are visible */
+  margin-left: auto;
 }
 
 .scroll-top-button {
   display: none;
-  width: auto;            /* Ensures natural width */
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 1000;
 }
 
 .menu-button {
   position: fixed;
-  bottom: 20px;
+  bottom: 10px;
   right: 10px;
   z-index: 1000;
 }
 
 .menu {
   position: fixed;
-  bottom: 20px;
+  bottom: 10px;
   right: 10px;
   display: none;
   flex-direction: row;
