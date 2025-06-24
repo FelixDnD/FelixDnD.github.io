@@ -3,9 +3,6 @@ layout: default
 title: Notes Index
 ---
 
-Hier könnte Ihre Werbung stehen.
-
-* * *
 
 ### Gruppen-ToDo:
 - Wir brauchen einen Gruppennamen!
@@ -30,5 +27,18 @@ Hier könnte Ihre Werbung stehen.
 ### Bugfixing
 
 - Sollte irgendetwas nicht funktionieren, bitte Screenshot machen und mir schicken!
+
+* * *
+
+### Aktuelles
+
+<div style="text-align: center;">
+  <img src="/assets/images/GoblinGuidingTours.png" alt="Goblin Guiding Tours verfügbar!" height="200" style="margin: 10px;" />
+  <img src="/assets/images/KartenhandelKartographie.png" alt="Kartenhandel & Kartographie verfügbar!" height="200" style="margin: 10px;" />
+</div>
+
+* * *
+
+Hier könnte ihre Werbung stehen!
 
 * * *
