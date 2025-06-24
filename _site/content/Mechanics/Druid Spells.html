@@ -50,10 +50,33 @@
       </div>
     </div>
 
-    <button class="scroll-top-button" onclick="scrollToTop()" id="scrollTopButton">Top</button>
+    <!-- Scroll Top Button -->
+<button class="scroll-top-button" onclick="scrollToTop()" id="scrollTopButton">Top</button>
+
+<!-- Menu Button -->
+<button class="menu-button" id="menuButton" onclick="openSidebar('sidebarMain')">Menü</button>
+
+<!-- SidebarMain -->
+<div class="sidebar" id="sidebarMain">
+  <div class="sidebar-content">
+    <nav>
+      <h3>Menü</h3>
+      <ul>
+        <hr>
+        <li><a href="#" onclick="openSidebar('sidebarMechanics')">Mechanics</a></li>
+        <li><a href="#" onclick="openSidebar('sidebarSessions')">Sessions</a></li>
+        <li><a href="#" onclick="openSidebar('sidebarPCs')">PCs</a></li>
+        <li><a href="#" onclick="openSidebar('sidebarNPCs')">NPCs</a></li>
+        <li><a href="#" onclick="openSidebar('sidebarOrte')">Orte</a></li>
+        <li><a href="#" onclick="goHome()">Home</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
 <!-- Sidebars -->
-<div class="sidebar" id="sidebarOrte"><div class="sidebar-content"><nav>
+<div class="sidebar" id="sidebarOrte"><div class="sidebar-content">
+    <nav>
     <h3>Orte</h3>
     <ul>
     <hr>
@@ -113,8 +136,11 @@
         
     
     </ul>
-</nav></div></div>
-<div class="sidebar" id="sidebarNPCs"><div class="sidebar-content"><nav>
+</nav>
+</div></div>
+
+<div class="sidebar" id="sidebarNPCs"><div class="sidebar-content">
+    <nav>
     <h3>NPCs</h3>
     <ul>
     <hr>
@@ -166,8 +192,11 @@
         
     
     </ul>
-</nav></div></div>
-<div class="sidebar" id="sidebarSessions"><div class="sidebar-content"><nav>
+</nav>
+</div></div>
+
+<div class="sidebar" id="sidebarSessions"><div class="sidebar-content">
+    <nav>
     <h3>Sessions</h3>
     <ul>
     <hr>
@@ -231,8 +260,11 @@
         
     
     </ul>
-</nav></div></div>
-<div class="sidebar" id="sidebarPCs"><div class="sidebar-content"><nav>
+</nav>
+</div></div>
+
+<div class="sidebar" id="sidebarPCs"><div class="sidebar-content">
+    <nav>
     <h3>PCs</h3>
     <ul>
     <hr>
@@ -300,8 +332,11 @@
         
     
     </ul>
-</nav></div></div>
-<div class="sidebar" id="sidebarMechanics"><div class="sidebar-content"><nav>
+</nav>
+</div></div>
+
+<div class="sidebar" id="sidebarMechanics"><div class="sidebar-content">
+    <nav>
     <h3>Mechanics</h3>
     <ul>
     <hr>
@@ -359,22 +394,11 @@
         
     
     </ul>
-</nav></div></div>
+</nav>
+</div></div>
 
 <div class="overlay" id="overlay" onclick="closeSidebars()"></div>
 
-<!-- Radial Menu -->
-<div class="menu" id="menu">
-<button class="menu-item" onclick="openSidebar('sidebarMechanics')">Mechanics</button>
-<button class="menu-item" onclick="openSidebar('sidebarSessions')">Sessions</button>
-<button class="menu-item" onclick="openSidebar('sidebarPCs')">PCs</button>
-<button class="menu-item" onclick="openSidebar('sidebarNPCs')">NPCs</button>
-<button class="menu-item" onclick="openSidebar('sidebarOrte')">Orte</button>
-<button class="menu-item" onclick="goHome()">Home</button>
-</div>
-
-<!-- Floating Action Button -->
-<button class="menu-button" id="menuButton" onclick="toggleMenu()">Menü</button>
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/pin.js"></script>
   </body>

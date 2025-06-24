@@ -1,6 +1,6 @@
 
 function toggleMenu() {
-document.getElementById("menu").classList.add("open");
+document.getElementById("sidebarMain").classList.add("open");
 document.getElementById("menuButton").style.display = "none";
 menu.scrollLeft = menu.scrollWidth;
 }
@@ -11,20 +11,20 @@ function handleSiteInteraction(event) {
   }
 
   if (
-    document.getElementById("menu").contains(event.target) ||
+    document.getElementById("sidebarMain").contains(event.target) ||
     document.getElementById("menuButton").contains(event.target)
   ) {
     return;
   }
 
-  document.getElementById("menu").classList.remove("open");
+  document.getElementById("sidebarMain").classList.remove("open");
   document.getElementById("menuButton").style.display = "inline-block";
 }
 
 function openSidebar(id) {
 document.querySelectorAll('.sidebar').forEach(el => el.classList.remove("open"));
 document.getElementById("overlay").classList.remove("show");
-document.getElementById("menu").classList.remove("open");
+document.getElementById("sidebarMain").classList.remove("open");
 document.getElementById("scrollTopButton").style.display = "none";
 document.getElementById("menuButton").style.display = "none";
 
@@ -35,7 +35,7 @@ document.getElementById("overlay").classList.add("show");
 function closeSidebars() {
 document.querySelectorAll('.sidebar').forEach(el => el.classList.remove("open"));
 document.getElementById("overlay").classList.remove("show");
-document.getElementById("menu").classList.remove("open");
+document.getElementById("sidebarMain").classList.remove("open");
 document.getElementById("menuButton").style.display = "inline-block";
 updateScrollTopButtonVisibility();
 }

@@ -64,31 +64,6 @@
   z-index: 1000;
 }
 
-.menu {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  display: none;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-  z-index: 999;
-  max-width: calc(100vw - 20px);
-  overflow-x: auto;
-  justify-content: flex-start;
-  direction: ltr;
-  -ms-overflow-style: none;     /* IE/Edge */
-  scrollbar-width: none;        /* Firefox */
-}
-
-.menu::-webkit-scrollbar {
-  display: none;                /* WebKit (Chrome/Safari) */
-}
-
-.menu.open {
-  display: flex;
-}
-
 .sidebar {
   position: fixed;
   top: 0;
