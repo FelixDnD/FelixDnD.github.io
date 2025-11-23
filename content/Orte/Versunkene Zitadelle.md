@@ -11,8 +11,9 @@ Die versunkene Zitadelle liegt 1 1/2 Tagesreisen östlich von Helmswacht. Sie is
 
 ### Orte:
 - <details><summary>Eingang.</summary> Gepflasterte Lichtung im Wald, von stehende und gestützte Säulen umgeben, Schlucht (30ft breit, viele Kilometer lang), Eingang am Boden der Schlucht.</details> 
-- <details><summary>Tür mit Drache & Sonne.</summary> -> Solis. verschlossen. Kobolde haben den Schlüssel.</details> 
+- <details><summary>Tür mit Drache & Sonne.</summary> -> Solis. In Session 7 haben wir den Schlüssel erhalten und die Tür geöffnet. Dort ruht ein Troll(-Geist?), dessen Grab wir beraubt und den wir wütend zurückgelassen haben.</details> 
 - **Raum mit 5 Särgen und 5 (jetzt) toten Skeletten.**
+
 
 * * *
 

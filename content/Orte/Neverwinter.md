@@ -8,9 +8,19 @@ modified: 2025-05-30T00:48:33+02:00
 * * *
 
 ### Orte:
-- unbekannt
+- <details><summary>Halle der Gerechtigkeit</summary>Sitz des Gerichts, Vorstand/Hausmeister/Person Kenori, dort gibt es u.a. ein BlackBoard mit Aufträgen.</details> 
+- <details><summary>Mondsteinmaske</summary>Gutes Inn.</details> 
 
 * * *
 
 ### Personen:
-- <details><summary>Lord Neverwinter.</summary> Heißt iwie anders. Wir haben in Session 5 einen versiegelten Brief für ihn von Anders erhalten.</details>
+- <details><summary>Lord Neverember.</summary>Wir haben in Session 5 einen versiegelten Brief für ihn von [Anders oder Eleander] erhalten und diesen in Session 7 geliefert. .</details>
+- <details><summary>Bote/Kurrier von Lord Neverember</summary></details> 
+- <details><summary>Kemori</summary>Detektivin, Schwester von Delvin, untersucht Kultaktivitäten</details> 
+- <details><summary>Delvin (tot)</summary>Detektiv, Bruder von Kemori, untersucht Kultaktivitäten, wurde tot mit Robe und getrocknetem Auge aufgefunden. Hatte versucht, den Kult von Innen aufzudecken.</details> 
+
+* * *
+
+### Der Kult:
+- [Haben/Nutzen/Verteilen/Es gibt] [ein oder mehrere] ausgetrocknete Augen, die grün blitzen, wenn man das Passwort sagt. (So wie der Troll in der versunkenen Zitadelle)
+- Pergament "Ruhm des Unsterblichen". (???)
