@@ -14,7 +14,7 @@ modified: 2025-05-30T00:48:33+02:00
 * * *
 
 ### Personen:
-- <details><summary>Lord Neverember.</summary>Wir haben in Session 5 einen versiegelten Brief für ihn von [Anders oder Eleander] erhalten und diesen in Session 7 geliefert. .</details>
+- <details><summary>Lord Neverember.</summary>Wir haben in Session 5 einen versiegelten Brief für ihn von Eleander erhalten und diesen in Session 7 geliefert. Neverember hat uns explizit empfohlen, uns nicht mehr Feinde zu machen als notwendig, und scheint insgesamt gegen Eskalation der Schmugglerjagt in Saltmarsh zu sein.</details>
 - <details><summary>Bote/Kurrier von Lord Neverember</summary></details> 
 - <details><summary>Kemori</summary>Detektivin, Schwester von Delvin, untersucht Kultaktivitäten</details> 
 - <details><summary>Delvin (tot)</summary>Detektiv, Bruder von Kemori, untersucht Kultaktivitäten, wurde tot mit Robe und getrocknetem Auge aufgefunden. Hatte versucht, den Kult von Innen aufzudecken.</details> 
