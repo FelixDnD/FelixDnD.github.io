@@ -24,3 +24,10 @@ modified: 2025-05-30T00:48:33+02:00
 ### Der Kult:
 - [Haben/Nutzen/Verteilen/Es gibt] [ein oder mehrere] ausgetrocknete Augen, die grün blitzen, wenn man das Passwort sagt. (So wie der Troll in der versunkenen Zitadelle)
 - Pergament "Ruhm des Unsterblichen". (???)
+
+### Die Katakomben / Der Kult:
+In Session 8 haben wir einen der vielen in den Katakomben der Stadt ansässigen Kulte aufgefunden und überwunden. 
+- <details><summary>Symbolik des Kultes</summary>Mindestens ein getrocknetes, manchmal grün leuchtendes Auge führt zum Eingang und öffnet eine große Tür. In den Katakomben sind Holzschnitzereien von Vecna, Gott der Geheimnisse, in Form eines rauchend schwarzen Schädels aufzufinden.</details>
+- <details><summary>Chanelle Winterhall</summary>Unabhängig der Kultaktivitäten befindet sich in den Katakomben das Grab von Chanelle Winterhall. Sie war dort als Geist gefangen und konnte erst Ruhen, nachdem wir ihren Namen genannt haben. Diesen fanden wir auf zwei Bildern von Chanelle und ihrer Geliebten Marcalia, einmal eine Stadt und einmal einen Wald überblickend, und in einem Medaillon.</details>
+- <details><summary>Vecna, Gott der Geheimnisse</summary></details>
+- <details><summary></summary></details>
